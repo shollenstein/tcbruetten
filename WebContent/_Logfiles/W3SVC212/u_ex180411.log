@@ -1,0 +1,555 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 00:12:49
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 00:12:48 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+2018-04-11 00:25:04 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 66.249.66.84 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 282 109
+2018-04-11 00:26:17 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 66.249.66.84 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 246 109
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 00:55:09
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 00:55:09 wl22 92.43.216.122 GET / - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 294 124
+2018-04-11 01:05:45 wl22 92.43.216.122 GET /brunch09/pages/DSC07516.htm - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 1410 321 125
+2018-04-11 01:06:47 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+2018-04-11 01:09:11 wl22 92.43.216.122 GET /brunch09/images/galleryStyle.css - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/brunch09/pages/DSC07516.htm www.tcbruetten.ch 200 0 0 1031 372 156
+2018-04-11 01:10:48 wl22 92.43.216.122 GET /robots.txt - 80 - 157.55.39.21 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - tcbruetten.ch 404 0 2 1407 246 171
+2018-04-11 01:10:51 wl22 92.43.216.122 GET /index7.html - 80 - 207.46.13.60 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - tcbruetten.ch 404 0 2 1407 279 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 01:43:52
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 01:43:51 wl22 92.43.216.122 GET /robots.txt - 80 - 216.145.17.190 HTTP/1.0 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.10;+rv:59.0)+Gecko/20100101+Firefox/59.0 - www.tcbruetten.ch 404 0 2 1426 235 156
+2018-04-11 01:43:52 wl22 92.43.216.122 GET / - 80 - 216.145.17.190 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.10;+rv:59.0)+Gecko/20100101+Firefox/59.0 - www.tcbruetten.ch 200 0 0 6085 371 171
+2018-04-11 01:44:52 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/index_2.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 10169 240 171
+2018-04-11 01:54:36 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+2018-04-11 01:58:55 wl22 92.43.216.122 GET /index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 18416 220 343
+2018-04-11 02:08:36 wl22 92.43.216.122 GET /index.html - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 354 109
+2018-04-11 02:09:42 wl22 92.43.216.122 GET /index.html - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(Linux;+Android+6.0.1;+Nexus+5X+Build/MMB29P)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.96+Mobile+Safari/537.36+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 480 109
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 02:51:50
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 02:51:49 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/index.html - 80 - 207.46.13.60 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 4165 313 171
+2018-04-11 02:51:53 wl22 92.43.216.122 GET /robots.txt - 80 - 157.55.39.102 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 404 0 2 1407 250 171
+2018-04-11 02:51:53 wl22 92.43.216.122 GET /robots.txt - 80 - 157.55.39.102 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 404 0 2 1407 250 250
+2018-04-11 02:51:53 wl22 92.43.216.122 GET /robots.txt - 80 - 157.55.39.102 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 404 0 2 1407 250 171
+2018-04-11 02:51:56 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/assets/css/normalize.css - 80 - 157.55.39.102 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 3614 295 171
+2018-04-11 02:51:59 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/assets/js/libs/modernizr.custom.23122.js - 80 - 157.55.39.156 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 4660 311 171
+2018-04-11 02:51:59 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/assets/js/main.js - 80 - 157.55.39.156 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 6618 288 265
+2018-04-11 02:52:02 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/assets/css/custom.css - 80 - 207.46.13.60 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 612 292 187
+2018-04-11 02:52:02 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/assets/css/main.css - 80 - 207.46.13.60 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 3330 290 171
+2018-04-11 02:56:04 wl22 92.43.216.122 GET /img/slide7.jpg - 80 - 66.249.66.83 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 200 0 0 10904298 195 1453
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 03:12:18
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 03:12:18 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+2018-04-11 03:19:14 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/index_7.html - 80 - 195.141.126.4 HTTP/1.1 Mozilla/5.0+(compatible;+localsearch-web/2.0;++http://www.localsearch.ch/en/legal-notice) - www.tcbruetten.ch 200 0 0 2132 257 31
+2018-04-11 03:30:35 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2753_large.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 187
+2018-04-11 03:30:38 wl22 92.43.216.122 GET /Finanzen.htm - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 883 222 187
+2018-04-11 03:33:54 wl22 92.43.216.122 GET /img/slide8.jpg - 80 - 66.249.66.84 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 200 0 0 9276731 195 4062
+2018-04-11 03:39:59 wl22 92.43.216.122 GET / - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 294 125
+2018-04-11 03:45:20 wl22 92.43.216.122 GET /mixed07/index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 15392 228 343
+2018-04-11 03:53:57 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 66.249.66.83 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 167 247 109
+2018-04-11 04:05:00 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 156
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 04:26:02
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 04:26:02 wl22 92.43.216.122 GET / - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(Linux;+Android+6.0.1;+Nexus+5X+Build/MMB29P)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.96+Mobile+Safari/537.36+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 420 109
+2018-04-11 04:26:23 wl22 92.43.216.122 GET / - 80 - 66.249.66.130 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - tcbruetten.ch 200 0 0 6085 290 109
+2018-04-11 04:31:58 wl22 92.43.216.122 GET /indexVorstand.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 16069 228 343
+2018-04-11 04:39:18 wl22 92.43.216.122 GET /indexMeisterschaft.html - 80 - 148.251.75.46 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+1084)+AppleWebKit/536.28.10+(KHTML+like+Gecko)+Version/6.0.3+Safari/536.28.10 - www.tcbruetten.ch 404 0 2 1407 323 15
+2018-04-11 04:51:41 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 66.249.66.84 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 282 109
+2018-04-11 04:52:55 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 66.249.66.85 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 246 93
+2018-04-11 04:53:47 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 05:53:13
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 05:53:12 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2753_large.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 187
+2018-04-11 05:53:14 wl22 92.43.216.122 GET /Finanzen.htm - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 883 222 187
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 06:11:25
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 06:11:25 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+2018-04-11 06:26:35 wl22 92.43.216.122 GET /indexMeisterschaft.html - 80 - 88.99.27.172 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+1084)+AppleWebKit/536.29.13+(KHTML+like+Gecko)+Version/6.0.4+Safari/536.29.13 - www.tcbruetten.ch 404 0 2 1407 322 31
+2018-04-11 06:30:07 wl22 92.43.216.122 GET /Umbau17/Tag6-8/index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 15492 235 343
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /indexClubmeister.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 https://www.google.ch/ www.tcbruetten.ch 200 0 0 5376 428 15
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /css/reset.css - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 1053 369 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /css/style.css - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 4924 369 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 1604 381 62
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 3003 365 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /js/vendor/jquery.slides.min.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 3980 371 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 2588 367 78
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 3393 368 46
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 3715 364 62
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /js/script.js - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 664 353 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 16238 404 62
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 8250 400 31
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 8250 400 46
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 408 93
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 412 78
+2018-04-11 06:32:59 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 410 109
+2018-04-11 06:33:02 wl22 92.43.216.122 GET /img/slide8.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 9276731 399 2640
+2018-04-11 06:33:02 wl22 92.43.216.122 GET /img/slide9.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 4626316 399 2812
+2018-04-11 06:33:04 wl22 92.43.216.122 GET /img/slide7.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 10904298 399 5249
+2018-04-11 06:33:48 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 408 31
+2018-04-11 06:33:48 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 412 15
+2018-04-11 06:33:48 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 410 15
+2018-04-11 06:33:59 wl22 92.43.216.122 GET /indexVorstand.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 4220 449 31
+2018-04-11 06:33:59 wl22 92.43.216.122 GET /img/ch14.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 17962 394 78
+2018-04-11 06:33:59 wl22 92.43.216.122 GET /img/Mi17.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 21691 394 46
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /img/ad14.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 18828 394 124
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /img/pa17.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 14419 394 62
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /img/042klein.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 19193 398 93
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /img/lu14.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 20217 394 109
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 109
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 409 125
+2018-04-11 06:34:00 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 407 156
+2018-04-11 06:34:03 wl22 92.43.216.122 GET /img/slide17.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 7746963 397 3015
+2018-04-11 06:34:03 wl22 92.43.216.122 GET /img/slide12.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 9610823 397 3156
+2018-04-11 06:34:03 wl22 92.43.216.122 GET /img/slide11.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 12261447 397 3937
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /indexInterclub.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 4044 447 15
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /img/DT2016.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 200 0 0 101854 397 78
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /img/JS2011gross.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 200 0 0 82214 402 93
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /img/55senioren.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 200 0 0 83055 401 109
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 404 0 2 1407 406 46
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /images/vet55gr.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 200 0 0 109161 401 62
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 404 0 2 1407 410 46
+2018-04-11 06:34:05 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 404 0 2 1407 408 46
+2018-04-11 06:34:08 wl22 92.43.216.122 GET /img/slide1.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexInterclub.html www.tcbruetten.ch 200 0 0 10238110 397 1687
+2018-04-11 06:34:25 wl22 92.43.216.122 GET /indexVorstand.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 4220 449 31
+2018-04-11 06:34:25 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 409 31
+2018-04-11 06:34:25 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:25 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 407 31
+2018-04-11 06:34:25 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:26 wl22 92.43.216.122 GET /index.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 200 0 0 6085 438 31
+2018-04-11 06:34:26 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 73291 425 93
+2018-04-11 06:34:26 wl22 92.43.216.122 GET /img/slide20.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 376280 389 156
+2018-04-11 06:34:26 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 15492 390 78
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 12633 391 62
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/meili.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 12292 387 78
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/slide10.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 346072 389 296
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/herzog.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 15444 388 78
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/joseph.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 14947 388 62
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 404 0 2 1407 397 46
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 12840 399 78
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 53411 390 93
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 404 0 2 1407 401 31
+2018-04-11 06:34:27 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 404 0 2 1407 399 46
+2018-04-11 06:34:28 wl22 92.43.216.122 GET /img/slide18.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 10040874 389 2015
+2018-04-11 06:34:35 wl22 92.43.216.122 GET /indexTraining.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 3818 438 46
+2018-04-11 06:34:35 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:36 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 409 62
+2018-04-11 06:34:36 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 407 46
+2018-04-11 06:34:36 wl22 92.43.216.122 GET /img/slide5.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 2426098 396 640
+2018-04-11 06:34:41 wl22 92.43.216.122 GET /img/slide6.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 13224727 396 5640
+2018-04-11 06:34:41 wl22 92.43.216.122 GET /img/slide14.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 11771506 397 5859
+2018-04-11 06:34:45 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:45 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 407 15
+2018-04-11 06:34:45 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 409 31
+2018-04-11 06:34:45 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 15
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 407 15
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 409 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexVorstand.html www.tcbruetten.ch 404 0 2 1407 405 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /indexClubmeister.html - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 5376 452 15
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 408 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 412 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 410 31
+2018-04-11 06:34:54 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 404 0 2 1407 408 15
+2018-04-11 06:34:58 wl22 92.43.216.122 GET /img/slide7.jpg - 80 - 87.245.99.208 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+11_2_6+like+Mac+OS+X)+AppleWebKit/604.1.34+(KHTML,+like+Gecko)+GSA/46.0.189829128+Mobile/15D100+Safari/604.1 http://www.tcbruetten.ch/indexClubmeister.html www.tcbruetten.ch 200 0 0 10904298 399 4234
+2018-04-11 06:43:31 wl22 92.43.216.122 GET /CM2006/CME06/index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 16559 233 328
+2018-04-11 06:46:23 wl22 92.43.216.122 GET /lang/indexboerse.php - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 2560 314 250
+2018-04-11 06:51:02 wl22 92.43.216.122 GET / - 80 - 46.118.127.172 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Update+a;+AOL+6.0;+Windows+98) http://www.tsatu.edu.ua/ www.tcbruetten.ch 200 0 0 18416 157 140
+2018-04-11 06:51:02 wl22 92.43.216.122 GET / - 80 - 46.118.127.172 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Update+a;+AOL+6.0;+Windows+98) http://www.tsatu.edu.ua/ www.tcbruetten.ch 200 0 0 18416 157 156
+2018-04-11 06:52:35 wl22 92.43.216.122 GET / - 80 - 178.137.86.152 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+TheFreeDictionary.com;+.NET+CLR+1.1.4322;+.NET+CLR+1.0.3705;+.NET+CLR+2.0.50727) http://aktau.xkaz.org/ www.tcbruetten.ch 200 0 0 18416 221 125
+2018-04-11 06:52:37 wl22 92.43.216.122 GET / - 80 - 178.137.86.152 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+TheFreeDictionary.com;+.NET+CLR+1.1.4322;+.NET+CLR+1.0.3705;+.NET+CLR+2.0.50727) http://aktau.xkaz.org/ www.tcbruetten.ch 200 0 64 13140 221 78
+2018-04-11 06:56:21 wl22 92.43.216.122 GET /css/reset.css - 80 - 66.249.66.132 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://tcbruetten.ch/lang/indexboerse.php tcbruetten.ch 200 0 0 1053 338 109
+2018-04-11 06:56:22 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 66.249.66.130 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://tcbruetten.ch/lang/indexboerse.php tcbruetten.ch 200 0 0 1604 350 109
+2018-04-11 06:56:22 wl22 92.43.216.122 GET /css/style.css - 80 - 66.249.66.130 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://tcbruetten.ch/lang/indexboerse.php tcbruetten.ch 200 0 0 4924 338 109
+2018-04-11 06:59:30 wl22 92.43.216.122 GET /robots.txt - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+rv:55.0)+Gecko/20100101+Firefox/55.0 http://tcbruetten.ch/robots.txt tcbruetten.ch 404 0 2 1407 287 187
+2018-04-11 06:59:30 wl22 92.43.216.122 GET /robots.txt - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+rv:55.0)+Gecko/20100101+Firefox/55.0 http://www.tcbruetten.ch/robots.txt www.tcbruetten.ch 404 0 2 1407 295 171
+2018-04-11 06:59:31 wl22 92.43.216.122 GET / - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+DownloaderChrome/62.0.3202.75+Safari/537.36 http://www.tcbruetten.ch www.tcbruetten.ch 200 0 0 6085 320 187
+2018-04-11 06:59:31 wl22 92.43.216.122 GET /index.html - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+DownloaderChrome/62.0.3202.75+Safari/537.36 http://www.tcbruetten.ch/index.html www.tcbruetten.ch 200 0 0 5096 341 171
+2018-04-11 06:59:31 wl22 92.43.216.122 GET /Mitgliedschaft09.htm - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+rv:55.0)+Gecko/20100101+Firefox/55.0 http://www.tcbruetten.ch/Mitgliedschaft09.htm www.tcbruetten.ch 200 0 0 2990 315 187
+2018-04-11 06:59:31 wl22 92.43.216.122 GET /copyInfo.htm - 80 - 54.201.191.23 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+DownloaderChrome/62.0.3202.75+Safari/537.36 http://www.tcbruetten.ch/copyInfo.htm www.tcbruetten.ch 200 0 0 1056 345 203
+2018-04-11 07:03:57 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 07:25:16
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 07:25:16 wl22 92.43.216.122 GET /img/slide7.jpg - 80 - 66.249.66.83 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 167 245 109
+2018-04-11 07:27:25 wl22 92.43.216.122 GET / - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 - tcbruetten.ch 200 0 0 6085 374 62
+2018-04-11 07:27:28 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1604 356 31
+2018-04-11 07:27:28 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 2588 342 46
+2018-04-11 07:27:28 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 4924 344 46
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 344 140
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 339 109
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3003 340 124
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /js/vendor/jquery.slides.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3980 346 93
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3393 343 93
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /js/script.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 664 328 93
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 16238 335 124
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 124
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12633 333 218
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15492 332 250
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 73291 367 468
+2018-04-11 07:27:29 wl22 92.43.216.122 GET /img/herzog.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15444 330 203
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/meili.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12292 329 499
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 329 359
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 329 312
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/joseph.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 14947 330 203
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1374 341 234
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1374 341 265
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 53411 332 406
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12840 341 234
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/slide20.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 376280 331 1468
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 171
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 341 203
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /img/slide10.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 346072 331 1515
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 343 234
+2018-04-11 07:27:30 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/css/style.css tcbruetten.ch 404 0 2 1407 352 156
+2018-04-11 07:27:43 wl22 92.43.216.122 GET /img/slide18.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 10040874 331 13421
+2018-04-11 07:27:44 wl22 92.43.216.122 GET /F9CD80F3-B79B-49AB-AD16-6F61BFFFC81B/netdefender/hui/images/status.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 386 125
+2018-04-11 07:31:25 wl22 92.43.216.122 GET / - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 18416 195 624
+2018-04-11 07:31:25 wl22 92.43.216.122 GET /IndexVerweis.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 11745 212 437
+2018-04-11 07:31:26 wl22 92.43.216.122 GET /index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 18416 205 390
+2018-04-11 07:31:26 wl22 92.43.216.122 GET /indexAgenda.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 14267 211 578
+2018-04-11 07:31:27 wl22 92.43.216.122 GET /indexFotos.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 15249 210 406
+2018-04-11 07:31:27 wl22 92.43.216.122 GET /indexInterclub.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 14215 214 125
+2018-04-11 07:31:27 wl22 92.43.216.122 GET /indexTraining.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 13434 213 109
+2018-04-11 07:31:28 wl22 92.43.216.122 GET /indexVorstand.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 16069 213 109
+2018-04-11 07:31:28 wl22 92.43.216.122 GET /Aktuar.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 883 205 374
+2018-04-11 07:31:29 wl22 92.43.216.122 GET /Finanzen.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 883 207 312
+2018-04-11 07:31:29 wl22 92.43.216.122 GET /Intern.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 883 205 312
+2018-04-11 07:31:29 wl22 92.43.216.122 GET /PR.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 883 201 296
+2018-04-11 07:31:29 wl22 92.43.216.122 GET /Platz.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 883 204 312
+2018-04-11 07:31:31 wl22 92.43.216.122 GET /Spiko.htm - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 968 204 296
+2018-04-11 07:31:31 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 12840 220 109
+2018-04-11 07:31:31 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 8250 210 124
+2018-04-11 07:31:31 wl22 92.43.216.122 GET /img/herzog.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 15444 209 125
+2018-04-11 07:31:32 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 53411 211 687
+2018-04-11 07:31:32 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 16238 214 124
+2018-04-11 07:31:32 wl22 92.43.216.122 GET /img/meili.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 12292 208 109
+2018-04-11 07:31:34 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 15492 211 343
+2018-04-11 07:31:34 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 12633 212 109
+2018-04-11 07:31:34 wl22 92.43.216.122 GET /js/script.js - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 694 207 343
+2018-04-11 07:31:34 wl22 92.43.216.122 GET /DM2006/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 17501 212 124
+2018-04-11 07:31:35 wl22 92.43.216.122 GET /Fondue14/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 11114 214 328
+2018-04-11 07:31:35 wl22 92.43.216.122 GET /TCB+Jass-Tennis-Abend+2010/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 16037 236 124
+2018-04-11 07:31:35 wl22 92.43.216.122 GET /TCBM15/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 23066 212 109
+2018-04-11 07:31:36 wl22 92.43.216.122 GET /apero06/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 14717 213 171
+2018-04-11 07:31:36 wl22 92.43.216.122 GET /apero07/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 13970 213 140
+2018-04-11 07:31:36 wl22 92.43.216.122 GET /apero09/index.html - 80 - 95.18.193.193 HTTP/1.1 Java/1.6.0_04 - tcbruetten.ch 200 0 0 13998 213 156
+2018-04-11 07:32:56 wl22 92.43.216.122 GET / - 80 - 46.119.121.22 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+.NET+CLR+1.0.3705) https://goodhumor24.com/ www.tcbruetten.ch 200 0 64 14600 161 62
+2018-04-11 07:32:56 wl22 92.43.216.122 GET / - 80 - 46.119.121.22 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+.NET+CLR+1.0.3705) https://goodhumor24.com/ www.tcbruetten.ch 200 0 64 14600 161 62
+2018-04-11 07:32:57 wl22 92.43.216.122 GET / - 80 - 46.119.121.22 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+.NET+CLR+1.0.3705) https://goodhumor24.com/ www.tcbruetten.ch 200 0 64 7300 161 78
+2018-04-11 07:34:36 wl22 92.43.216.122 GET /CM2006/CME06/index.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 16559 233 359
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 08:14:06
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 08:14:06 wl22 92.43.216.122 GET /indexMeisterschaft.html - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 404 0 2 1407 317 109
+2018-04-11 08:26:36 wl22 92.43.216.122 GET /Aktuar.htm - 80 - 157.55.39.156 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - tcbruetten.ch 200 0 0 817 402 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 08:45:59
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 08:45:59 wl22 92.43.216.122 GET /system/startup.php p=q1q 80 - 62.4.15.41 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/60.0.3112.113+Safari/537.36 - tcbruetten.ch 404 0 2 1407 263 46
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 09:09:32
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 09:09:32 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+2018-04-11 09:12:10 wl22 92.43.216.122 GET /img/slide8.jpg - 80 - 66.249.66.83 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 167 245 109
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 09:34:20
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 09:34:20 wl22 92.43.216.122 GET /Umbau17/C+Plan+Schopf+unten.pdf - 80 - 40.77.167.18 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 317382 309 765
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 10:10:00
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 10:09:59 wl22 92.43.216.122 GET /robots.txt - 80 - 178.255.215.65 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - www.tcbruetten.ch 404 0 2 1426 273 15
+2018-04-11 10:09:59 wl22 92.43.216.122 GET / - 80 - 178.255.215.65 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - www.tcbruetten.ch 200 0 0 6104 349 31
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 10:33:50
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 10:33:50 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 10:51:56
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 10:51:56 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2759_large.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 203
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 11:15:02
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 11:15:01 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2625_large.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 187
+2018-04-11 11:22:10 wl22 92.43.216.122 GET / - 80 - 46.119.121.22 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1) http://game300.ru/ www.tcbruetten.ch 200 0 0 18416 141 281
+2018-04-11 11:22:11 wl22 92.43.216.122 GET / - 80 - 46.119.121.22 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1) http://game300.ru/ www.tcbruetten.ch 200 0 0 18416 141 93
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 11:55:17
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 11:55:16 wl22 92.43.216.122 GET /Verzeichnis/mitgliederliste/Telliste.htm - 80 - 195.141.126.4 HTTP/1.1 Mozilla/5.0+(compatible;+localsearch-web/2.0;++http://www.localsearch.ch/en/legal-notice) - www.tcbruetten.ch 401 0 0 1561 267 0
+2018-04-11 12:05:11 wl22 92.43.216.122 GET /img/slide19.jpg - 80 - 40.77.167.18 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 9005043 287 18390
+2018-04-11 12:06:21 wl22 92.43.216.122 GET /robots.txt - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 404 0 2 1407 231 109
+2018-04-11 12:06:21 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 66.249.66.85 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 282 156
+2018-04-11 12:19:00 wl22 92.43.216.122 GET /Intern.htm - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 883 220 156
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 13:07:40
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 13:07:39 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - www.tcbruetten.ch 404 0 2 1407 224 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 13:50:39
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 13:50:39 wl22 92.43.216.122 GET / - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 294 874
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 14:22:17
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 14:22:17 wl22 92.43.216.122 HEAD / - 80 - 188.165.200.217 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+NT+5.0) - tcbruetten.ch 200 0 0 251 118 140
+2018-04-11 14:23:00 wl22 92.43.216.122 GET /robots.txt - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) - tcbruetten.ch 404 0 2 1426 213 15
+2018-04-11 14:23:03 wl22 92.43.216.122 GET / - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) - tcbruetten.ch 200 0 0 18435 203 31
+2018-04-11 14:23:05 wl22 92.43.216.122 GET /css/reset.css - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 248 31
+2018-04-11 14:23:09 wl22 92.43.216.122 GET /css/style.css - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 248 31
+2018-04-11 14:23:10 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 260 15
+2018-04-11 14:23:11 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 261 31
+2018-04-11 14:23:12 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 259 31
+2018-04-11 14:23:14 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 258 15
+2018-04-11 14:23:15 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 138.201.59.34 HTTP/1.0 Mozilla/5.0+(compatible;+SEOkicks-Robot;++http://www.seokicks.de/robot.html) http://tcbruetten.ch/ tcbruetten.ch 406 0 0 1532 262 31
+2018-04-11 14:23:18 wl22 92.43.216.122 GET / - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(Linux;+Android+6.0.1;+Nexus+5X+Build/MMB29P)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.96+Mobile+Safari/537.36+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 420 124
+2018-04-11 14:23:40 wl22 92.43.216.122 GET /robots.txt - 80 - 66.249.66.130 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - tcbruetten.ch 404 0 2 1407 227 93
+2018-04-11 14:23:41 wl22 92.43.216.122 GET / - 80 - 66.249.66.132 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - tcbruetten.ch 200 0 0 6085 290 156
+2018-04-11 14:28:44 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 66.249.66.83 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 166 246 109
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 14:51:43
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 14:51:42 wl22 92.43.216.122 GET /Leitung.htm - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - www.tcbruetten.ch 200 0 0 964 225 156
+2018-04-11 14:53:53 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/custom.css - 80 - 66.249.65.125 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/Img40Jahre/Jubi40/content/DSC_2499_large.html www.tcbruetten.ch 200 0 0 963 394 156
+2018-04-11 14:53:54 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/resources/css/master.css - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/Img40Jahre/Jubi40/content/DSC_2499_large.html www.tcbruetten.ch 200 0 0 2826 400 109
+2018-04-11 15:00:32 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 16:07:21
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 16:07:20 wl22 92.43.216.122 GET / - 80 - 66.249.66.85 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 294 109
+2018-04-11 16:12:12 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 16:40:02
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 16:40:02 wl22 92.43.216.122 GET /indexAgenda.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 14267 226 187
+2018-04-11 16:40:04 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2719_large.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 171
+2018-04-11 16:51:16 wl22 92.43.216.122 GET / - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 - tcbruetten.ch 200 0 0 6085 374 78
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 344 46
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 4924 344 46
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1604 356 46
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 2588 342 46
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /js/script.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 664 328 78
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 339 109
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3393 343 109
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /js/vendor/jquery.slides.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3980 346 218
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3003 340 234
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 16238 335 76
+2018-04-11 16:51:16 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 78
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15492 332 109
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12633 333 109
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 73291 367 279
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/meili.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12292 329 109
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/herzog.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15444 330 125
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/joseph.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 14947 330 46
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12840 341 78
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 31
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 53411 332 140
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 343 31
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 341 46
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/css/style.css tcbruetten.ch 404 0 2 1407 352 171
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 329 31
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 329 31
+2018-04-11 16:51:17 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1374 341 109
+2018-04-11 16:51:18 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 339 171
+2018-04-11 16:51:18 wl22 92.43.216.122 GET /img/slide20.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 376280 331 1467
+2018-04-11 16:51:18 wl22 92.43.216.122 GET /img/slide10.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 346072 331 1623
+2018-04-11 16:51:24 wl22 92.43.216.122 GET /img/slide18.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 10040874 331 8529
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 17:10:32
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 17:10:31 wl22 92.43.216.122 GET /system/startup.php c=ZWNobygzNDY1NjM2ODc1NCszODY5Mjc1OTMpOw 80 - 62.4.15.41 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/60.0.3112.113+Safari/537.36 - tcbruetten.ch 404 0 2 1407 298 31
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 17:35:04
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 17:35:04 wl22 92.43.216.122 GET / - 80 - 42.236.54.22 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/50.0.2661.102+Safari/537.36;+360Spider http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 6085 315 359
+2018-04-11 17:36:45 wl22 92.43.216.122 GET / - 80 - 178.137.86.152 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+TheFreeDictionary.com;+.NET+CLR+1.1.4322;+.NET+CLR+1.0.3705;+.NET+CLR+2.0.50727) https://med-dopomoga.com/ www.tcbruetten.ch 200 0 64 8760 224 62
+2018-04-11 17:36:47 wl22 92.43.216.122 GET / - 80 - 178.137.86.152 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+TheFreeDictionary.com;+.NET+CLR+1.1.4322;+.NET+CLR+1.0.3705;+.NET+CLR+2.0.50727) https://med-dopomoga.com/ www.tcbruetten.ch 200 0 0 18416 224 312
+2018-04-11 17:37:51 wl22 92.43.216.122 GET /img/slide7.jpg - 80 - 66.249.66.84 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 167 245 93
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 17:58:44
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 17:58:43 wl22 92.43.216.122 GET /indexAgenda.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 14267 226 171
+2018-04-11 17:58:46 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2719_large.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 171
+2018-04-11 18:11:40 wl22 92.43.216.122 GET /ICResultate/Tennisclub+Brütten+IC+Berichte.pdf - 80 - 207.46.13.80 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 168836 329 1031
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 18:29:18
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 18:29:17 wl22 92.43.216.122 GET / - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.sandrotennis.ch/Y_Pages_communes/Liens_sandro.htm www.tcbruetten.ch 200 0 0 6085 428 46
+2018-04-11 18:29:17 wl22 92.43.216.122 GET /css/reset.css - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 1053 331 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 3393 330 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /js/vendor/jquery.slides.min.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 3980 333 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 1604 343 46
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 3715 326 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 3003 327 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 2588 329 46
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /css/style.css - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 4924 331 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /js/script.js - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 664 315 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 16238 366 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 8250 362 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 15492 363 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 12633 364 31
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/meili.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 12292 360 46
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/herzog.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 15444 361 46
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 73291 398 124
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/joseph.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 14947 361 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 12840 372 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/slide10.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 346072 362 203
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/slide20.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 376280 362 234
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 404 0 2 1407 370 46
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 8250 362 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 53411 363 109
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 404 0 2 1407 374 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 404 0 2 1407 370 62
+2018-04-11 18:29:18 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 404 0 2 1407 372 78
+2018-04-11 18:29:20 wl22 92.43.216.122 GET /img/slide18.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 10040874 362 1749
+2018-04-11 18:29:20 wl22 92.43.216.122 GET /favicon.ico - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 1145 314 31
+2018-04-11 18:29:49 wl22 92.43.216.122 GET /indexTraining.html - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 3818 411 47
+2018-04-11 18:29:49 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 388 62
+2018-04-11 18:29:49 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 392 62
+2018-04-11 18:29:49 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 404 0 2 1407 390 62
+2018-04-11 18:29:50 wl22 92.43.216.122 GET /img/slide5.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 2426098 379 1014
+2018-04-11 18:29:51 wl22 92.43.216.122 GET /img/slide6.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 13224727 379 2795
+2018-04-11 18:29:53 wl22 92.43.216.122 GET /img/slide14.jpg - 80 - 31.10.157.6 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/604.5.6+(KHTML,+like+Gecko)+Version/11.0.3+Safari/604.5.6 http://www.tcbruetten.ch/indexTraining.html www.tcbruetten.ch 200 0 0 11771506 380 4453
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 18:59:23
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 18:59:23 wl22 92.43.216.122 GET /img/slide8.jpg - 80 - 66.249.66.85 HTTP/1.1 Googlebot-Image/1.0 - www.tcbruetten.ch 304 0 0 167 245 109
+2018-04-11 19:09:15 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 187
+2018-04-11 19:11:35 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 19:46:14
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 19:46:14 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2600_large.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 203
+2018-04-11 19:48:09 wl22 92.43.216.122 GET /robots.txt - 80 - 18.184.55.52 HTTP/1.1 Mozilla/5.0+(compatible;+Cliqzbot/2.0;++http://cliqz.com/company/cliqzbot) - www.tcbruetten.ch 404 0 2 1407 299 31
+2018-04-11 19:48:11 wl22 92.43.216.122 GET /indexClubmeister.html - 80 - 18.184.55.52 HTTP/1.1 Mozilla/5.0+(compatible;+Cliqzbot/2.0;++http://cliqz.com/company/cliqzbot) - www.tcbruetten.ch 200 0 0 5376 310 31
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 20:06:13
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 20:06:12 wl22 92.43.216.122 GET / - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 - tcbruetten.ch 200 0 0 6085 374 109
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1604 356 46
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 344 62
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 4924 344 31
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /js/vendor/modernizr.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 2588 342 31
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /js/vendor/respond.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3003 340 46
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /js/vendor/jquery.slides.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3980 346 46
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /lightbox/js/lightbox.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 339 77
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /js/vendor/prefixfree.min.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3393 343 78
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /js/script.js - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 664 328 78
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/Tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 31
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/logo16klein.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 16238 335 78
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/mobiliar.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15492 332 78
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/raifflogo.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12633 333 109
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/meili.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12292 329 124
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/images/large/DSC_2710.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 73291 367 296
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/herzog.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 15444 330 156
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/joseph.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 14947 330 156
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/hgHaenni.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 53411 332 187
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/DHPA_Logo_schwarz.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 12840 341 171
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/tennis3.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 8250 331 187
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /css/style.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 3715 329 156
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /css/reset.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1053 329 203
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 1374 341 156
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/slide10.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 346072 331 765
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /lightbox/images/loading.gif - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 343 187
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /lightbox/images/close.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 404 0 2 1407 341 187
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /img/slide20.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 0 376280 331 875
+2018-04-11 20:06:13 wl22 92.43.216.122 GET /css/img/arrowright2.png - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/css/style.css tcbruetten.ch 404 0 2 1407 352 140
+2018-04-11 20:06:18 wl22 92.43.216.122 GET /img/slide18.jpg - 80 - 83.78.47.36 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64;+rv:59.0)+Gecko/20100101+Firefox/59.0 http://tcbruetten.ch/ tcbruetten.ch 200 0 64 4980991 331 5156
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 20:44:34
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 20:44:34 wl22 92.43.216.122 GET /robots.txt - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 404 0 2 1407 187 265
+2018-04-11 20:44:41 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2710_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1737 222 31
+2018-04-11 20:44:51 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2680_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1737 222 31
+2018-04-11 20:45:01 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2651_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1735 222 46
+2018-04-11 20:45:10 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/10_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1728 216 31
+2018-04-11 20:45:21 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/6_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1726 215 62
+2018-04-11 20:45:30 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2775_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1735 222 31
+2018-04-11 20:45:40 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2797_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1738 222 31
+2018-04-11 20:45:50 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2634_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1736 222 31
+2018-04-11 20:46:00 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2621_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1736 222 31
+2018-04-11 20:46:09 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/5_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1726 215 46
+2018-04-11 20:46:20 wl22 92.43.216.122 GET /robots.txt - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 404 0 2 1407 183 249
+2018-04-11 20:46:29 wl22 92.43.216.122 GET /Fondue14/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 3980 192 312
+2018-04-11 20:46:40 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2650_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1736 222 31
+2018-04-11 20:46:49 wl22 92.43.216.122 GET /jass14/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 4388 190 46
+2018-04-11 20:46:58 wl22 92.43.216.122 GET /CM2011/CME11/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 4643 196 78
+2018-04-11 20:47:08 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2733_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1737 222 31
+2018-04-11 20:47:17 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2499_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1736 222 46
+2018-04-11 20:47:28 wl22 92.43.216.122 GET /images/kidsdaydia/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 4234 201 78
+2018-04-11 20:47:37 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/1_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1734 215 46
+2018-04-11 20:47:47 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2753_large.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - www.tcbruetten.ch 200 0 0 1736 222 31
+2018-04-11 20:47:57 wl22 92.43.216.122 GET /auweb/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 4346 189 46
+2018-04-11 20:48:07 wl22 92.43.216.122 GET /2008events/dorffest/Dorffest08/index.html - 80 - 217.182.252.214 HTTP/1.1 Mozilla/5.0+(compatible;+ExtLinksBot/1.5;++https://extlinks.com/Bot.html) - tcbruetten.ch 200 0 0 4165 214 46
+2018-04-11 20:48:28 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+2018-04-11 20:48:51 wl22 92.43.216.122 GET /events2012/diashow-df/index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 14787 242 374
+2018-04-11 20:49:27 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2733_large.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3641 255 171
+2018-04-11 20:49:30 wl22 92.43.216.122 GET /Img40Jahre/Jubi40/content/DSC_2720_large.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 3640 255 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 21:18:49
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 21:18:49 wl22 92.43.216.122 GET /brunch06/index.html - 80 - 216.244.66.203 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 16293 229 359
+2018-04-11 21:32:53 wl22 92.43.216.122 GET / - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 294 109
+2018-04-11 21:44:11 wl22 92.43.216.122 GET / - 80 - 66.249.66.132 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - tcbruetten.ch 200 0 0 6085 290 124
+2018-04-11 21:44:33 wl22 92.43.216.122 GET / - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(Linux;+Android+6.0.1;+Nexus+5X+Build/MMB29P)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.96+Mobile+Safari/537.36+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - www.tcbruetten.ch 200 0 0 6085 420 125
+2018-04-11 21:44:37 wl22 92.43.216.122 GET /css/reset.css - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 1053 326 109
+2018-04-11 21:44:37 wl22 92.43.216.122 GET /lightbox/css/lightbox.css - 80 - 66.249.66.84 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 1604 338 93
+2018-04-11 21:44:37 wl22 92.43.216.122 GET /css/style.css - 80 - 66.249.66.83 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) http://www.tcbruetten.ch/ www.tcbruetten.ch 200 0 0 4924 326 124
+2018-04-11 21:49:46 wl22 92.43.216.122 GET /img/slide19.jpg - 80 - 157.55.39.188 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 9005043 287 25062
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 22:05:55
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 22:05:54 wl22 92.43.216.122 GET /robots.txt - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 404 0 2 1407 220 171
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 22:42:15
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 22:42:14 wl22 92.43.216.122 GET /stangel/index.html - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 13463 228 187
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 23:07:05
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 23:07:05 wl22 92.43.216.122 GET /events/ev2017/Feier+40.pdf - 80 - 157.55.39.188 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - www.tcbruetten.ch 200 0 0 580567 300 1796
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2018-04-11 23:56:19
+#Fields: date time s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2018-04-11 23:56:18 wl22 92.43.216.122 GET /Platz.htm - 80 - 216.244.66.250 HTTP/1.1 Mozilla/5.0+(compatible;+DotBot/1.1;+http://www.opensiteexplorer.org/dotbot,+help@moz.com) - tcbruetten.ch 200 0 0 883 219 187
