@@ -18,7 +18,7 @@ textarea {
 	 * [VERSION MIT CAPTCHA]
 	 *
 	 * Dieser 1. Teil kann angepasst werden, um die Formularfelder zu beeinflussen ($fields)
-	 * Außerdem solltest Du in $adminMail deine E-Mail-Adresse speichern
+	 * Ausserdem solltest Du in $adminMail deine E-Mail-Adresse speichern
 	 * $formTitle beinhaltet die Überschrift des Formulars
 	 * In $msgInfo ist der Hinweistext gespeichert, der angezeigt werden soll
 	 * $msgError wird angezeigt, wenn nicht alle Pflichtfelder ausgefüllt wurden
@@ -26,10 +26,10 @@ textarea {
 	 * Speichere in $captchaPath den Pfad von der aktuellen Datei aus zur captcha.php
 	 */
 	
-	$adminMail = 'Patrik.Volkart@zkb.ch';
+	$adminMail = 'lukas.grossert@sunrise.ch';
 	
-	$formTitle = 'Kontaktformular Hausdienst';
-	$msgInfo = 'Um mich zu kontaktieren füllen Sie bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
+	$formTitle = 'Kontaktformular Kassier (Lukas Grossert)';
+	$msgInfo = 'Um mich zu kontaktieren, füllen Sie bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
 	$msgError = 'Es ist ein Fehler aufgetreten: Es wurden nicht alle Felder korrekt ausgefüllt.';
 	$msgSent = 'Ihre Anfrage wurde erfolgreich verschickt.';
 	$captchaPath = '/kontaktformular/captcha/captcha.php';
@@ -39,7 +39,7 @@ textarea {
 						'Anrede' 			=> array('select', true, array('Frau', 'Herr')),
 						'Vorname' 			=> array('text', false),
 						'Nachname'			=> array('text', true),
-						'Straße'			=> array('text', false),
+						'Strasse'			=> array('text', false),
 						'PLZ und Stadt'		=> array('text', false),
 						'Telefon'			=> array('text', false),
 						//'Website'			=> array('text', false),
@@ -56,8 +56,8 @@ textarea {
 	/* Ausgabe des Formulars  */
 	if (isset($_POST['send']) && isset($_POST['captcha_code']) && isset($_POST['email'])) {
 		// 2. Eingaben prüfen //
-		$mailSubject = 'Nachricht über das Kontaktformular';
-		$mailText = "Das Kontaktformular deiner Website wurde dazu verwendet, Dir diese Nachricht zukommen zulassen.\r\n\r\n";
+		$mailSubject = 'Nachricht über tcbruetten.ch';
+		$mailText = "Du hast eine Nachricht über das Kontaktformular von www.tcbruetten.ch erhalten.\r\n\r\n";
 		$mailHeader = "From: kontaktformular@".$_SERVER['HTTP_HOST']."\r\n"."Content-type: text/plain; charset=utf-8"."\r\n";
 		
 		// Einzelne Felder auslesen //
@@ -127,7 +127,7 @@ textarea {
 			}
 		}
 		
-		// Formular-Ausgabe abschließen und Captcha einbinden //
+		// Formular-Ausgabe abschliessen und Captcha einbinden //
 		echo			"<tr><td>Spam-Schutz: (*)</td><td><img src=\"".$captchaPath."\" alt=\"Captcha\" width=140 height=40 /><br /><input type=\"text\" name=\"captcha_code\" size=9 maxlength=5 /></td></tr>" .
 					'</table>' .
 					'<input type="text" name="email" style="display:none;" />' .
