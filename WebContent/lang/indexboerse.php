@@ -125,9 +125,9 @@
                 <a class="button" href="javascript:void(0)">Mehr lesen</a>
             </article>
             <div id="slides">
-                <img src="../img/slide3.jpg" alt="Some alt text">
-                <img src="../img/slide2.jpg" alt="Some alt text">    	
-                <img src="../img/slide1.jpg" alt="Some alt text">
+                <img src="../images/slider/slide3.jpg" alt="Some alt text">
+                <img src="../images/slider/slide2.jpg" alt="Some alt text">    	
+                <img src="../images/slider/slide1.jpg" alt="Some alt text">
             </div>
         </section>
         <section id="spacer">  
