@@ -173,6 +173,40 @@ nav ul li a:hover
         display: none;
 }
 
+
+
+/* ONE COLUMN */
+
+section.single_column
+{
+	margin: 20px auto;
+	line-height:25px;
+	font-family: 'Open Sans', sans-serif;
+	clear:both;
+	width:auto;
+	max-width:900px;
+/* 	margin:0 auto; */
+}
+
+.single_column article.column
+{
+	margin: 0px 0 30px;
+	font-size:14px;
+	float:left;
+	width:auto;
+	max-width: 900px;
+}
+
+article.column h3
+{	
+	font-size:20px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+
+
 /* 3 COLUMNS */
 
 #boxcontent
@@ -372,17 +406,7 @@ h3.subtitle
 }
 
 
-/* ONE COLUMN */
 
-
-#text_columns article.column
-{
-        margin: 70px 0;
-        font-size:14px;
-        float:left;
-        width:auto;
-        max-width: 900px;
-}
 
 /* TWO COLUMNS */
 
