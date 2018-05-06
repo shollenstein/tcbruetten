@@ -6,6 +6,7 @@
         <title>Club Vorstand</title>
         <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/modal-image.css" type="text/css" media="screen" />
         <link href="lightbox/css/lightbox.css" rel="stylesheet" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
         
@@ -20,6 +21,8 @@
         <script src="js/vendor/prefixfree.min.js"></script>
         <script src="js/vendor/jquery.slides.min.js"></script>
         <script src="js/script.js"></script>
+        
+        <script src="js/modal-image.js"></script>
         
         <!--[if lt IE 9]>
             <style>
@@ -167,7 +170,7 @@
             <article>
                 <h3 class="title" style="margin-left: 0px">Präsident<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Christian Fuchs</h3>
-                <img src="images/vorstand/Christian_klein.jpg" />
+                <img src="images/vorstand/Christian.jpg.thumb" onclick="openModalImage('images/vorstand/Christian.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>        	
                     <a href="kontaktformular/praesident.html" target="_blank">E-Mail</a>
@@ -176,7 +179,7 @@
             <article>
                 <h3 class="title" style="margin-left: 0px">Aktuar<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Mike Vogt</h3>
-                <img src="images/vorstand/Mike_klein.jpg" />
+                <img src="images/vorstand/Mike.jpg.thumb" onclick="openModalImage('images/vorstand/Mike.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>        	
                     <a href="kontaktformular/aktuar.html" target="_blank">E-Mail</a>
@@ -185,7 +188,7 @@
             <article>
                 <h3 class="title" style="margin-left: 0px">Kassier<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Lukas Grossert</h3>
-                <img src="images/vorstand/Lukas_klein.jpg" />
+                <img src="images/vorstand/Lukas.jpg.thumb" onclick="openModalImage('images/vorstand/Lukas.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>
                     <a href="kontaktformular/kassier.html" target="_blank">E-Mail</a>
@@ -194,7 +197,7 @@
             <article>
                 <h3 class="title" style="margin-left: 0px">Spielleitung<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Adi Vogt</h3>
-                <img src="images/vorstand/Adi_klein.jpg" />
+                <img src="images/vorstand/Adi.jpg.thumb" onclick="openModalImage('images/vorstand/Adi.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>
                     <a href="kontaktformular/spiko.html" target="_blank">E-Mail</a>
@@ -203,7 +206,7 @@
 			<article>
                 <h3 class="title" style="margin-left: 0px">Hausdienst<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Patrik Volkart</h3>
-                <img src="images/vorstand/Patrik_klein.jpg" />
+                <img src="images/vorstand/Patrik.jpg.thumb" onclick="openModalImage('images/vorstand/Patrik.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>
                     <a href="kontaktformular/hausdienst.html" target="_blank">E-Mail</a>
@@ -212,7 +215,7 @@
 			<article>
                 <h3 class="title" style="margin-left: 0px">Platzwartung<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Bruno Büchi</h3>
-                <img src="images/vorstand/Bruno_klein.jpg"/>
+                <img src="images/vorstand/Bruno.jpg.thumb" onclick="openModalImage('images/vorstand/Bruno.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>
                 	<a href="kontaktformular/platzwartung.html" target="_blank">E-Mail</a>
@@ -221,7 +224,7 @@
             <article>
                 <h3 class="title" style="margin-left: 0px">Webdesign/PR<br></h3>
                 <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Silvan Hollenstein</h3>
-                <img src="images/vorstand/Silvan_klein.jpg"/>
+                <img src="images/vorstand/Silvan.jpg.thumb" onclick="openModalImage('images/vorstand/Silvan.jpg', '')" style="cursor: pointer" class="openModal"/>
                 <br class="clear">
                 <p>
                 	<a href="kontaktformular/webdesign.html" target="_blank">E-Mail</a>
@@ -307,6 +310,19 @@
         </section>-->
         
         
+        <!-- The Modal -->
+		<div id="imgModal" class="modal">
+		  <!-- The Close Button -->
+		  <span class="close">&times;</span>
+		
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="imgModalImg" />
+		
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+		</div>
+        
+        
         
         <footer>
         	<h2 class="hidden">Our footer</h2>
@@ -351,5 +367,16 @@
                 </article>
             </section>
         </footer>
+        
+        
+<!--         <script type="text/javascript"> -->
+// 			$(document).click(function(event) {
+// 				//if you click on anything except the modal itself or the "open modal" link, close the modal
+// 				if (!$(event.target).closest(".modal-content,.openModal").length) {
+// 					$(".modal").hide();
+// 				}
+// 			});
+<!-- 		</script> -->
+	
 	</body>
 </html>
