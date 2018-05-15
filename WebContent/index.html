@@ -67,8 +67,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
             </div>
             <div id="mobileMenu">
                 <ul>
-                    <li><a href="javascript:gotoHome();">Home</a></li>
-                    <li><a href="javascript:gotoTraining();">Training</a></li>
+                    <li><a href="#home" onClick="gotoHome();">Home</a></li>
+                    <li><a href="#training" onClick="gotoTraining();">Training</a></li>
                     <li><a href="indexInterclub.html">Interclub</a></li>
                     <li><a href="indexVorstand.html">Vorstand</a></li>
                     <li><a href="indexAgenda.html">Agenda</a></li>
@@ -82,8 +82,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
             <nav>
             	<h2 class="hidden">Our navigation</h2>
                 <ul>
-                    <li><a href="javascript:gotoHome();">Home</a></li>
-                    <li><a href="javascript:gotoTraining();">Training</a></li>
+                    <li><a href="#home" onClick="gotoHome();">Home</a></li>
+                    <li><a href="#training" onClick="gotoTraining();">Training</a></li>
                     <li><a href="indexInterclub.html">Interclub</a></li>
                     <li><a href="indexVorstand.html">Vorstand</a></li>
                     <li><a href="indexAgenda.html">Agenda</a></li>
@@ -145,17 +145,45 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 	
 	<script type="text/javascript">
 	
+		$(document).ready(function() {
+		    var page = window.location.hash || 'home.html'; 
+		    loadPage(page);
+		});
+		
+
+		$(function() {
+			$(window).hashchange(function() {
+				if (location.hash == "#home") {
+					gotoHome();
+				} else if (location.hash == "#training") {
+					gotoTraining();
+				} else if (location.hash == "#clubmeisterschaften") {
+					gotoClubmeisterschaften();
+				}
+			})
+
+			// Since the event is only triggered when the hash changes, we need to trigger
+			// the event now, to handle the hash the page may have loaded with.
+			$(window).hashchange();
+		});
+
+
 		function gotoHome() {
-			$("#mainContent").load("home.html");
+			loadPage("home.html");
 		}
-		
+
 		function gotoTraining() {
-			$("#mainContent").load("training.html");
+			loadPage("training.html");
 		}
-		
+
 		function gotoClubmeisterschaften() {
-			$("#mainContent").load("clubmeisterschaften.html");
+			loadPage("clubmeisterschaften.html");
 		}
-	
+
+		// This loads the actual page.
+		function loadPage(page) {
+			$('#mainContent').load(page);
+			// 			window.location.hash = page;
+		}
 	</script>
 </html>
