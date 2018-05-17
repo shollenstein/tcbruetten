@@ -15,7 +15,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Club home</title>
+        <title>TCB</title>
         <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
         <link href="lightbox/css/lightbox.css" rel="stylesheet" />
@@ -53,7 +53,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
             </style>
         <![endif]-->
         
-        
+
 
 	</head>
 
@@ -144,42 +144,69 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 	
 	
 	<script type="text/javascript">
-	
-	
-		$(function() {
+		
+		$(document).ready(function() {
+			console.log('document ready');
+			
 			// part 1
-			$("a.mylink").click(function() {
-				location.hash = $(this).attr('href').match(/(^.*)\./)[1]
-				return false
-			})
+// 			$("a.mylink").click(function() {
+// 				location.hash = $(this).attr('href').match(/(^.*)\./)[1];
+// 				console.log('.mylink clicked: ' + this + ', hash=' + location.hash);
+// 				return false;
+// 			})
+			registerLinks();
+			
 			// part 2
 			var originalTitle = document.title
 			function hashChange() {
-				var page = location.hash.slice(1)
+				console.log('hashChange(): hash=' + location.hash);
+				var page = location.hash.slice(1);
 				if (page != "") {
-					$('#mainContent').load(page + ".html")
-					document.title = originalTitle + ' – ' + page
+					loadPage(page, originalTitle);
 				}
 			}
+			
 			// part 3
 			if ("onhashchange" in window) { // cool browser
-				$(window).on('hashchange', hashChange).trigger('hashchange')
+				console.log('cool browser');
+				$(window).on('hashchange', hashChange).trigger('hashchange');
 			} else { // lame browser
-				var lastHash = ''
+				console.log('lame browser');
+				var lastHash = '';
 				setInterval(function() {
 					if (lastHash != location.hash)
 						hashChange()
 					lastHash = location.hash
 				}, 100)
 			}
-		})
+			
+			var page = location.hash.slice(1) || 'home';
+			loadPage(page, originalTitle);
+		});
 		
+		
+		function loadPage(page, originalTitle) {
+			console.log('loading page ' + page);
+// 			$('#slides').remove();
+// 			$("#slider_content1, #slider_content2, #slider_content3").remove();
+			
+			$('#mainContent').load(page + ".html", function() {
+				showSlideshow();
+				registerLinks();
+			});
+			document.title = originalTitle + ' – ' + page;
+			
+		}
+		
+		function registerLinks() {
+			$("a.mylink").click(function() {
+				location.hash = $(this).attr('href').match(/(^.*)\./)[1];
+				console.log('.mylink clicked: ' + this + ', hash=' + location.hash);
+				return false;
+			})
+		}
 		
 
-		$(document).ready(function() {
-			var page = location.hash || 'home';
-			$('#mainContent').load(page + ".html")
-		});
 
 // 		$(function() {
 // 			$(window).hashchange(function() {
@@ -214,5 +241,41 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 // 			$('#mainContent').load(page);
 // 			// 			window.location.hash = page;
 // 		}
+
+
+        function showSlideshow() {
+        	console.log("slidesjs" );
+        	
+          	$('#slides').slidesjs({
+	            height: 235,
+	            navigation: false,
+	            pagination: false,
+	            effect: {
+	              fade: {
+	                speed: 400
+	              }
+	            },
+	            callback: {
+	                start: function(number)
+	                {			
+	                	console.log("callback start: " + number + ", " + this);
+	                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+	                },
+	                complete: function(number)
+	                {	
+	                	console.log("callback complete: " + number);
+	                    $("#slider_content" + number).delay(500).fadeIn(1000);
+	                }		
+	            },
+	            play: {
+	                active: false,
+	                auto: true,
+	                interval: 6000,
+	                pauseOnHover: false,
+	                effect: "fade"
+	            }
+          	});
+        }
+	
 	</script>
 </html>
