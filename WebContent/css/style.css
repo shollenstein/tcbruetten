@@ -35,7 +35,7 @@ input[type=submit]
 
 p
 {
-        margin:5px 0;
+        margin-bottom: 10px;
         line-height:25px;
 }
 
@@ -49,6 +49,11 @@ a
 nav ul li a
 {
     text-decoration: none;
+}
+
+article ul
+{
+	margin-bottom: 10px;
 }
 
 article ul li a
