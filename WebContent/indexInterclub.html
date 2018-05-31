@@ -22,6 +22,9 @@
         <script src="js/vendor/jquery.slides.min.js"></script>
         <script src="js/script.js"></script>
         
+        <link rel="stylesheet" href="css/modal-image.css" type="text/css" media="screen" />
+        <script src="js/modal-image.js"></script>
+        
         <!--[if lt IE 9]>
             <style>
                 header
@@ -71,6 +74,17 @@
           });
         });
         </script>
+        
+        
+        <style type="text/css">
+        
+        	img.openModal
+        	{
+        		width: 100%;
+        		cursor: pointer;
+        	}
+        
+        </style>
 	</head>
 
 	<body>
@@ -111,7 +125,6 @@
         
         
         <section class="container">
-        	<h2 class="hidden">Damen 40+</h2>
             <article id="slider_content1">
                 <h3>Interclub Heimspiele</h3>
                 <p>Am kommenden Wochenende vom 2./3. Juni finden drei Interclub Heimspiele statt.</p>
@@ -178,33 +191,39 @@
             	<h3 class="hidden">D40+</h3>
                 <figure>  
                     <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=10820&amp;Lang=D&amp;device=" target="_blank" title="Damen I 40+">
-                        
                         <img src="img/Tennis3.png" alt="Ball"/>
                     </a>
                     <figcaption>
-                        <strong>
-                           Damen I 40+ (3. Liga)
-                         </strong>
-                          <img src="images/interclub/IC_Damen_40+_Team1.jpeg" alt="Damen I 40+" height="156"/>
+                        <strong>Damen I 40+ (3. Liga)</strong>
+<!--                           <img src="images/interclub/IC_Damen_40+_Team1.jpeg" alt="Damen I 40+"/> -->
+                          <img src="images/interclub/IC_Damen_40+_Team1.jpg.thumb" onclick="openModalImage('images/interclub/IC_Damen_40+_Team1.jpg', '')" class="openModal" alt="Damen I 40+"/>
                         <br>
-                        
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+            	<h3 class="hidden">D40+</h3>
+                <figure>
+                    <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=15106&Lang=D&device=" target="_blank" title="Damen II 40+">
+                        <img src="img/Tennis3.png" alt="Ball"/>
+                    </a>
+                    <figcaption>
+                        <strong>Damen II 40+ (3. Liga)</strong>
+<!--                          <img src="images/interclub/IC_Damen_40+_Team2.jpeg" alt="Damen II 40+" height="156"/> -->
+						<img src="images/interclub/IC_Damen_40+_Team2.jpg.thumb" onclick="openModalImage('images/interclub/IC_Damen_40+_Team2.jpg', '')" class="openModal" alt="Damen II 40+"/>
                     </figcaption>
                 </figure>
             </article>
             <article class="img-item">
             	<h3 class="hidden">H35+</h3>
                 <figure>  
-                    <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=5338&amp;Lang=D&amp;device=" target="_blank"
-							   title="Herren 35+">
-                        
+                    <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=5338&amp;Lang=D&amp;device=" target="_blank" title="Herren 35+">
                         <img src="img/Tennis3.png" alt="Ball"/>
                     </a>
                     <figcaption>
-                        <strong>
-                            Herren 35+ (2. Liga)
-                         </strong>
-                        <img src="img/JS2011gross.jpg" alt="Herren 35+" height="156"/>
-
+                        <strong>Herren 35+ (2. Liga)</strong>
+<!--                         <img src="img/JS2011gross.jpg" alt="Herren 35+" height="156"/> -->
+						<img src="images/interclub/IC_Herren_35+.jpg.thumb" onclick="openModalImage('images/interclub/IC_Herren_35+.jpg', '')" class="openModal" alt="Herren 35+"/>
                     </figcaption>
                 </figure>
             </article>
@@ -212,14 +231,11 @@
             	<h3 class="hidden">H45+</h3>
                 <figure>
                     <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=5339&amp;Lang=D&amp;device=" target="_blank" title="Herren 45+">
-                        
                         <img src="img/Tennis3.png" alt="Ball"/>
                     </a>
                     <figcaption>
-                        <strong>
-                            Herren 45+ (1. Liga)
-                         </strong>
-                         <img src="img/55senioren.jpg" alt="Herren 45+" height="156"/>
+                        <strong>Herren 45+ (1. Liga)</strong>
+                         <img style="width: 100%" src="images/interclub/55senioren.jpg" alt="Herren 45+" />
                     </figcaption>
                 </figure>
             </article>            
@@ -227,31 +243,11 @@
             	<h3 class="hidden">H55+</h3>
                 <figure>
                     <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=14896&amp;Lang=D&amp;device=" target="_blank" title="Herren 55+">
-                        
                         <img src="img/Tennis3.png" alt="Ball"/>
                     </a>
                     <figcaption>
-                        <strong>
-                            Herren 55+ (2. Liga)
-                         </strong>
-                         <img src="images/vet55gr.jpg" alt="Herren 45+" height="156"/>
-
-                    </figcaption>
-                </figure>
-            </article>
-			<article class="img-item">
-            	<h3 class="hidden">D40+</h3>
-                <figure>
-                    <a href="https://comp01.swisstennis.ch/ic/servlet/TeamResults?TeamId=15106&Lang=D&device=" target="_blank" title="Damen II 40+">
-                        
-                        <img src="img/Tennis3.png" alt="Ball"/>
-                    </a>
-                    <figcaption>
-                        <strong>
-                            Damen II 40+ (3. Liga)
-                         </strong>
-                         <img src="img/DT2016.jpg" alt="Damen II 40+" height="156"/>
-
+                        <strong>Herren 55+ (2. Liga)</strong>
+                         <img style="width: 100%" src="images/interclub/vet55gr.jpg" alt="Herren 45+" />
                     </figcaption>
                 </figure>
             </article>
@@ -274,6 +270,18 @@
         </section>
         
         
+                <!-- The Modal -->
+		<div id="imgModal" class="modal">
+		  <!-- The Close Button -->
+		  <span class="close">&times;</span>
+		
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="imgModalImg" />
+		
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+		</div>
+		
         
         <footer>
         	<h2 class="hidden">Our footer</h2>
