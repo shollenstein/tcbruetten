@@ -33,6 +33,9 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
         <script src="js/vendor/jquery.slides.min.js"></script>
         <script src="js/script.js"></script>
         
+        <link rel="stylesheet" href="css/modal-image.css" type="text/css" media="screen" />
+        <script src="js/modal-image.js"></script>
+        
         <!--[if lt IE 9]>
             <style>
                 header
@@ -69,7 +72,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
                 <ul>
                     <li><a class="mylink" href="home.html">Home</a></li>
                     <li><a class="mylink" href="training.html">Training</a></li>
-                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a class="mylink" href="interclub.html">Interclub</a></li>
                     <li><a href="indexVorstand.html">Vorstand</a></li>
                     <li><a href="indexAgenda.html">Agenda</a></li>
                     <li><a href="indexFotos.html">Bilder</a></li>
@@ -84,7 +87,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
                 <ul>
                     <li><a class="mylink" href="home.html">Home</a></li>
                     <li><a class="mylink" href="training.html">Training</a></li>
-                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a class="mylink" href="interclub.html">Interclub</a></li>
                     <li><a href="indexVorstand.html">Vorstand</a></li>
                     <li><a href="indexAgenda.html">Agenda</a></li>
 					<li><a href="indexFotos.html">Bilder</a></li>
@@ -97,6 +100,19 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
         
         <div id="mainContent"></div>
         
+        
+        <!-- The Modal -->
+		<div id="imgModal" class="modal">
+		  <!-- The Close Button -->
+		  <span class="close">&times;</span>
+		
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="imgModalImg" />
+		
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+		</div>
+		
         
         <footer>
         	<h2 class="hidden">Our footer</h2>
