@@ -178,13 +178,16 @@ nav ul li a:hover
         display: none;
 }
 
+section
+{
+	margin: 20px auto;
+}
 
 
 /* ONE COLUMN */
 
 section.single_column
 {
-	margin: 20px auto;
 	line-height:25px;
 	font-family: 'Open Sans', sans-serif;
 	clear:both;
@@ -332,6 +335,7 @@ h3.subtitle
 {
         width:auto;
         height:70px;
+        margin: 0 auto 70px;
         background-color:#e56038;
         position:relative;
         font-family: 'Open Sans', sans-serif;
@@ -367,7 +371,6 @@ h3.subtitle
         clear:both;
         width:auto;
         max-width:900px;
-        margin:0 auto;
 }
 
 #four_columns h2, #text_columns h3
