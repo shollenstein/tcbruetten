@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Club Agenda</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+        
+        <script src="js/vendor/modernizr.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+        
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script>
+        
+        <script src="lightbox/js/lightbox.js"></script>
+        <script src="js/vendor/prefixfree.min.js"></script>
+        <script src="js/vendor/jquery.slides.min.js"></script>
+        <script src="js/script.js"></script>
+        
+       
+            <style>
+                header
+                {
+                    margin: 0 auto 20px auto;
+                }
+                #four_columns .img-item figure span.thumb-screen
+                {
+                    display:none;
+                }  
+            .auto-style1 {
+				font-size: 100%;
+				color: #ABABAB;
+			}
+            .auto-style2 {
+				border-color: #000000;
+				background-color: #D6D0C1;
+			}
+            .auto-style3 {
+				border-style: solid;
+				border-color: #FFFFFF;
+				background-color: #FFFFFF;
+			}
+			.auto-style4 {
+				background-color: #E56038;
+			}
+			.auto-style5 {
+				background-color: #FFFFFF;
+			}
+            </style> <!--[if lt IE 9]>
+        <![endif]-->
+        
+        
+        <script>
+        $(function() {
+          $('#slides').slidesjs({	
+            height: 235,
+            navigation: false,
+            pagination: false,
+            effect: {
+              fade: {
+                speed: 400
+              }
+            },
+            callback: {
+                start: function(number)
+                {			
+                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                },
+                complete: function(number)
+                {			
+                    $("#slider_content" + number).delay(500).fadeIn(1000);
+                }		
+            },
+            play: {
+                active: false,
+                auto: true,
+                interval: 6000,
+                pauseOnHover: false,
+                effect: "fade"
+            }
+          });
+        });
+        </script>
+	</head>
+
+	<body>
+        <header>
+            <div class="toggleMobile">
+                <span class="menu1"></span>
+                <span class="menu2"></span>
+                <span class="menu3"></span>
+            </div>
+            <div id="mobileMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+                </ul>
+            </div>           
+            <h1>Tennisclub Brütten</h1>
+            <p>1977</p>           
+            
+            <nav>
+            	<h2 class="hidden">Our navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        
+        <section class="container">
+        	<h2 class="hidden">GV</h2>
+<!--
+            <article id="slider_content1">
+                <h3>GV 2018</h3>
+                <p>Die GV 2018 findet am 31. Januar im Restaurant Sonnenhof statt. <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+-->
+            <article id="slider_content2">
+                <h3>IC Spiele</h3>
+                <p>Die IC-Spiele 2018 werden wieder ab Mai gespielt. Es werden fünf Teams gemeldet.</p>
+            </article>
+<!--
+            <article id="slider_content3">
+                <h3>Anlässe</h3>
+                <p>Die GV 2018 wird nicht im Gemeindesaal, sondern im Restaurant Sonnenhof durchgeführt! <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+-->
+            <div id="slides">
+                <img src="images/slider/slide13.jpg" alt="Some alt text">
+                <img src="images/slider/slide12.jpg" alt="Some alt text">    	
+                <img src="images/slider/slide8.jpg" alt="Some alt text">
+            </div>
+        </section>
+        
+        <section id="spacer">  
+        	<h2 class="hidden">Clubhaus im Chapf</h2>          
+            <p>TCB Tennisclub Brütten - Agenda (2018) </p>
+            
+            <div class="search">
+                <form action="#">
+                <img alt="" height="100" src="img/logo16klein.png" width="123">
+                  <!--  <input type="text" name="sitesearch" value="Wort eingeben ..."/>
+                    <input type="submit" name="start_search" class="button" value="Suchen"/>!-->
+                </form>
+            </div>
+                        
+        </section>
+        
+        
+        
+        <section id="four_columns">
+            <h2>Jahresplan 2018</h2>
+            <article class="img-item" style="width: 201px">
+                <figure>        
+                      <table class="auto-style2" style="width: 200px" cellpadding="10">
+						  <tr>
+							  <td style="height: 25px">&nbsp; Clubagenda 2018</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style3">&nbsp;GV Mittwoch 31. Jan 2018</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;Auwiesenturnier<br>&nbsp;17.März</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;Apéro Eröffnung<br>&nbsp;Dienstag 8. Mai</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;Clubmeisterschaft<br>&nbsp;7./8. Juli</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;Doppelmeisterschaft<br>&nbsp;Samstag 1. September</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;Jasstennis<br>&nbsp;Freitag 21. September</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;Fondueabend<br>&nbsp;Freitag 2. November</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;GV 2019 Mi 30. Jan</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style4">&nbsp;</td>
+						  </tr>
+						  <tr>
+							  <td class="auto-style5">&nbsp;</td>
+						  </tr>
+						  <tr>
+							  <td>&nbsp;</td>
+						  </tr>
+					  </table>
+                </figure>
+            </article>
+            
+            
+            <article class="img-item" style="width: 201px">
+            	<h3 class="hidden">Thema2</h3>
+                <figure>&nbsp;<figcaption>
+                    <strong>Montagnachmittag<br>Veteranen-Doppel</strong></figcaption>
+                </figure>
+            </article>
+
+            <article class="img-item" style="width: 201px">
+            	<h3 class="hidden">Thema3</h3>
+                <figure>&nbsp;<figcaption>
+                    <strong>Montagabend<br>Training IC-Damen</strong></figcaption>
+                </figure>
+            </article>
+
+            <article class="img-item" style="width: 201px">
+            	<h3 class="hidden">Thema4</h3>
+                <figure>&nbsp;<figcaption>
+                    <strong>Dienstagabend<br>Doppelspiele</strong></figcaption>
+                </figure>
+            </article>
+
+			<article class="img-item" style="width: 201px">
+            	<h3 class="hidden">Thema5</h3>
+                <figure>&nbsp;<figcaption>
+                    <strong>Donnerstagabend<br>Training IC-Herren</strong></figcaption>
+                </figure>
+            </article>
+
+			<article class="img-item" style="width: 201px">
+            	<h3 class="hidden">Thema5</h3>
+                <figure>
+                        &nbsp;<figcaption>
+                    <strong>Arbeitseinsatz für Club: <br>Samstag 7. April und 10. November</strong></figcaption>
+                    
+                </figure>
+            </article>
+
+            <br class="clear"/>
+        </section>
+        
+        
+        
+        <footer>
+        	<h2 class="hidden">Our footer</h2>
+            <section id="copyright">
+            	<h3 class="hidden">Copyright notice</h3>
+                <div class="wrapper">
+                    <div class="social">
+                        <a href="http://www.tcbruetten.ch/disclaimer.htm" target="_blank"><img src="img/Tennis3.png" alt="disclaimer" width="25" title="disclaimer"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                    </div>
+                    &copy; Copyright 2018 by
+					<a href="http://www.tcbruetten.ch/copyInfo.htm" target="_blank"><span class="auto-style1">
+					TC Brütten</span></a>. All Rights Reserved.
+                </div>
+            </section>
+            <section class="wrapper">
+            	<h3 class="hidden">Footer content</h3>
+                <article class="column">
+                    <h4>Kontakt</h4>
+                    Präsident: Christian Fuchs<br>Aktuar: Mike Vogt<br>
+					Spielleiter: Adi Vogt</article>
+                <article class="column midlist">
+                    <h4>Adresse</h4>
+                    <ul>
+                        <li>Im Chapf</li>
+                        <li><a href="http://www.bruetten.ch" target="_blank" title="Gemeinde Brütten">8311 Brütten</a></li>
+                        <li><a href="mitglieder/mitglieder.php" target="_blank">Interne Telefonliste</a></li>
+                        <li>tcbruetten.ch</li>
+                    </ul>
+                </article>
+                <article class="column rightlist">
+                    <h4>Anfahrt</h4>
+                    <ul>
+                        <li>
+						<a href="http://www.tcbruetten.ch/plan.htm" target="_blank"><img src="img/tennis3.png" width="80" alt="Plan klein" title="Wegbeschreibung"/><span> </span>
+						</a></li>
+                    </ul>
+                    <br class="clear"/>
+                </article>
+            </section>
+        </footer>
+	</body>
+</html>

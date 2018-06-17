@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Club Vorstand</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+        
+        <script src="js/vendor/modernizr.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+        
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script>
+        
+        <script src="lightbox/js/lightbox.js"></script>
+        <script src="js/vendor/prefixfree.min.js"></script>
+        <script src="js/vendor/jquery.slides.min.js"></script>
+        <script src="js/script.js"></script>
+        
+        <link rel="stylesheet" href="css/modal-image.css" type="text/css" media="screen" />
+        <script src="js/modal-image.js"></script>
+        
+        <!--[if lt IE 9]>
+            <style>
+                header
+                {
+                    margin: 0 auto 20px auto;
+                }
+                #four_columns .img-item figure span.thumb-screen
+                {
+                    display:none;
+                }  
+            .auto-style1 {
+				font-size: 100%;
+				color: #ABABAB;
+			}
+            </style>
+        <![endif]-->
+        
+        
+        <script>
+        $(function() {
+          $('#slides').slidesjs({	
+            height: 235,
+            navigation: false,
+            pagination: false,
+            effect: {
+              fade: {
+                speed: 400
+              }
+            },
+            callback: {
+                start: function(number)
+                {			
+                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                },
+                complete: function(number)
+                {			
+                    $("#slider_content" + number).delay(500).fadeIn(1000);
+                }		
+            },
+            play: {
+                active: false,
+                auto: true,
+                interval: 6000,
+                pauseOnHover: false,
+                effect: "fade"
+            }
+          });
+        });
+        </script>
+        
+        <style>
+            #boxcontent article
+            {
+                width: 180px;
+            }
+            
+        </style>
+	</head>
+
+	<body>
+        <header>
+            <div class="toggleMobile">
+                <span class="menu1"></span>
+                <span class="menu2"></span>
+                <span class="menu3"></span>
+            </div>
+            <div id="mobileMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+
+                </ul>
+            </div>           
+            <h1>Tennisclub Brütten</h1>
+            <p>1977</p>           
+            
+            <nav>
+            	<h2 class="hidden">Our navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        
+        <section class="container">
+        	<h2 class="hidden">GV</h2>
+<!--
+            <article id="slider_content1">
+                <h3>GV 2018</h3>
+                <p>Die GV 2018 wurde am 31. Januar im Restaurant Sonnenhof durchgeführt. <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+-->
+<!--
+            <article id="slider_content2">
+                <h3>Sitzungen</h3>
+                <p>Der Vorstand des TCB hat ein neues Mitglied. Silvan Hollenstein ist Nachfolger von Rolf Berner <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+-->
+<!--
+            <article id="slider_content3">
+                <h3>Vakant</h3>
+                <p>Weiter sind Personen für verschiedenen Kommissionen gesucht! <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+-->
+            <div id="slides">
+                <img src="images/slider/slide17.jpg" alt="Some alt text">
+                <img src="images/slider/slide11.jpg" alt="Some alt text">    	
+                <img src="images/slider/slide12.jpg" alt="Some alt text">
+            </div>
+        </section>
+        
+        <section id="spacer">  
+        	<h2 class="hidden">Clubhaus im Chapf</h2>          
+            <p>TCB Tennisclub Brütten - Vorstand (Mitglieder) </p>
+            
+            <div class="search">
+                <form action="#">
+                <img alt="" height="100" src="img/logo16klein.png" width="123">
+                   <!-- <input type="text" name="sitesearch" value="Wort eingeben ..."/>
+                    <input type="submit" name="start_search" class="button" value="Suchen"/> !-->
+                </form>
+            </div>
+                       
+        </section>
+        
+        <section id="boxcontent">
+        	<h2 class="hidden">Präsident</h2>
+            <article>
+                <h3 class="title" style="margin-left: 0px">Präsident<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Christian Fuchs</h3>
+                <img src="images/vorstand/Christian.jpg.thumb" onclick="openModalImage('images/vorstand/Christian.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>        	
+                    <a href="kontaktformular/praesident.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+            <article>
+                <h3 class="title" style="margin-left: 0px">Aktuar<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Mike Vogt</h3>
+                <img src="images/vorstand/Mike.jpg.thumb" onclick="openModalImage('images/vorstand/Mike.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>        	
+                    <a href="kontaktformular/aktuar.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+            <article>
+                <h3 class="title" style="margin-left: 0px">Kassier<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Lukas Grossert</h3>
+                <img src="images/vorstand/Lukas.jpg.thumb" onclick="openModalImage('images/vorstand/Lukas.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>
+                    <a href="kontaktformular/kassier.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+            <article>
+                <h3 class="title" style="margin-left: 0px">Spielleitung<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Adi Vogt</h3>
+                <img src="images/vorstand/Adi.jpg.thumb" onclick="openModalImage('images/vorstand/Adi.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>
+                    <a href="kontaktformular/spiko.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+			<article>
+                <h3 class="title" style="margin-left: 0px">Hausdienst<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Patrik Volkart</h3>
+                <img src="images/vorstand/Patrik.jpg.thumb" onclick="openModalImage('images/vorstand/Patrik.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>
+                    <a href="kontaktformular/hausdienst.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+			<article>
+                <h3 class="title" style="margin-left: 0px">Platzwartung<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Bruno Büchi</h3>
+                <img src="images/vorstand/Bruno.jpg.thumb" onclick="openModalImage('images/vorstand/Bruno.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>
+                	<a href="kontaktformular/platzwartung.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+            <article>
+                <h3 class="title" style="margin-left: 0px">Webdesign/PR<br></h3>
+                <h3 class="subtitle" style="margin-left: 0px; margin-top: 0px">Silvan Hollenstein</h3>
+                <img src="images/vorstand/Silvan.jpg.thumb" onclick="openModalImage('images/vorstand/Silvan.jpg', '')" style="cursor: pointer" class="openModal"/>
+                <br class="clear">
+                <p>
+                	<a href="kontaktformular/webdesign.html" target="_blank">E-Mail</a>
+                </p>
+            </article>
+
+            <br class="clear"/>
+        </section>
+        
+        <section id="four_columns">
+            <h2>Der Vorstand informiert: </h2>    
+            <article class="img-item">
+            	<h3 class="hidden">Thema1</h3>
+                <figure>
+                    <img src="img/Tennis3.png" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>news 2018</strong>
+                        momentan keine News
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+            	<h3 class="hidden">Thema2</h3>
+                <figure>
+                    <img src="img/Tennis3.png" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>
+                            Bilder Umbau 2017
+                         </strong>
+                        <a href="Umbau17/Tag1-2/index.html" target="_blank">Bilder Tag 1 und 2</a>
+                        <a href="Umbau17/Tag3-5/index.html" target="_blank">Bilder Tag 3 bis 5</a>
+                        <a href="Umbau17/Tag6-8/index.html" target="_blank">Bilder Tag 6 bis 8</a>
+                        <a href="Umbau17/Tag9-10/index.html" target="_blank">Bilder Tag 9 bis 10</a>
+                        <a href="Umbau17/Tag12/index.html" target="_blank">Bilder Tag 11 bis 13</a>
+                    	<a href="Umbau17/20-Oktober/index.html" target="_blank">Bilder 20. Oktober</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="img-item">
+            	<h3 class="hidden">Thema3</h3>
+                <figure>
+                    <img src="img/Tennis3.png" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>
+                            Baupläne 2017
+                         </strong>
+                         <a href="Umbau17/C%20%20Plan%20Küche.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Küchenpläne</a>
+                        <a href="Umbau17/C%20Plan%20Schopf%20Schnitt.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Schopf Schnitt</a>
+                        <a href="Umbau17/C%20Plan%20Schopf%20oben.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Schopf oben</a>
+                        <a href="Umbau17/C%20Plan%20Schopf%20unten.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Schopf unten</a>
+                        <a href="Umbau17/C%20Plan%20Sitzplatz.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Sitzplatz</a>
+                    </figcaption>
+                </figure>
+            </article>            
+            <article class="img-item">
+            	<h3 class="hidden">Thema4</h3>
+                <figure>
+                     <img src="img/Tennis3.png" alt="Some alt text"/>
+                    <figcaption>
+                        <strong>Reglemente</strong>
+                        <a href="files/reglemente/Beitragsreglement 2017.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Beitragsreglement 2017</a>
+                        <a href="files/reglemente/Frondienst und Platzwartung 2017.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Frondienst/Platzwartung 2017</a>
+                        <a href="files/reglemente/Platzordnung 2017.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Platzordnung 2017</a>
+                        <a href="files/reglemente/Ranglistenreglement_2018.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Ranglistenreglement 2018</a>
+                        <a href="files/reglemente/Spielordnung 2017.pdf" target="_blank"><img src="images/pdf_icon_32.png" width=24 height=24 style="vertical-align: middle; margin-right: 0.5em">Spielordnung 2017</a>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <br class="clear"/>
+        </section>
+        
+<!--        <section id="text_columns">
+        	<h2 class="hidden">Blindtext</h2>
+            <article class="column1">    
+                <h3>was noch zu sagen wäre ...</h3>
+                <p></p>
+                    <p></p>
+            </article>
+            
+        </section>-->
+        
+        
+        <!-- The Modal -->
+		<div id="imgModal" class="modal">
+		  <!-- The Close Button -->
+		  <span class="close">&times;</span>
+		
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="imgModalImg" />
+		
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+		</div>
+        
+        
+        
+        <footer>
+        	<h2 class="hidden">Our footer</h2>
+            <section id="copyright">
+            	<h3 class="hidden">Copyright notice</h3>
+                <div class="wrapper">
+                    <div class="social">
+                        <a href="http://www.tcbruetten.ch/disclaimer.htm" target="_blank"><img src="img/Tennis3.png" alt="disclaimer" width="25" title="disclaimer"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                       
+                        
+                    </div>
+                    &copy; Copyright 2018 by
+					<a href="http://www.tcbruetten.ch/copyInfo.htm" target="_blank"><span class="auto-style1">
+					TC Brütten</span></a>. All Rights Reserved.
+                </div>
+            </section>
+            <section class="wrapper">
+            	<h3 class="hidden">Footer content</h3>
+                <article class="column">
+                    <h4>Kontakt</h4>
+                    Präsident: Christian Fuchs<br>Aktuar: Mike Vogt<br>
+					Spielleiter: Adi Vogt</article>
+                <article class="column midlist">
+                    <h4>Adresse</h4>
+                    <ul>
+                        <li>Im Chapf</li>
+                        <li><a href="http://www.bruetten.ch" target="_blank" title="Gemeinde Brütten">8311 Brütten</a></li>
+                        <li><a href="mitglieder/mitglieder.php" target="_blank">Interne Telefonliste</a></li>
+                        <li>tcbruetten.ch</li>
+                    </ul>
+                </article>
+                <article class="column rightlist">
+                    <h4>Anfahrt</h4>
+                    <ul>
+                        <li>
+						<a href="http://www.tcbruetten.ch/plan.htm" target="_blank"><img src="img/tennis3.png" width="80" alt="Plan klein" title="Wegbeschreibung"/><span> </span>
+						</a></li>
+                    </ul>
+                    <br class="clear"/>
+                </article>
+            </section>
+        </footer>
+        
+        
+<!--         <script type="text/javascript"> -->
+<!--  			$(document).click(function(event) { -->
+<!--  				//if you click on anything except the modal itself or the "open modal" link, close the modal -->
+<!--  				if (!$(event.target).closest(".modal-content,.openModal").length) { -->
+<!--  					$(".modal").hide(); -->
+<!--  				} -->
+<!--  			}); -->
+<!-- 		</script> -->
+	
+	</body>
+</html>

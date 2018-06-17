@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Club Fotos</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+        
+        <script src="js/vendor/modernizr.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+        
+        <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/1.7.2.jquery.min.js"><\/script>')</script>
+        
+        <script src="lightbox/js/lightbox.js"></script>
+        <script src="js/vendor/prefixfree.min.js"></script>
+        <script src="js/vendor/jquery.slides.min.js"></script>
+        <script src="js/script.js"></script>
+        
+        <!--[if lt IE 9]>
+            <style>
+                header
+                {
+                    margin: 0 auto 20px auto;
+                }
+                #four_columns .img-item figure span.thumb-screen
+                {
+                    display:none;
+                }  
+            .auto-style1 {
+				font-size: 100%;
+				color: #ABABAB;
+			}
+            </style>
+        <![endif]-->
+        
+        
+        <script>
+        $(function() {
+          $('#slides').slidesjs({	
+            height: 235,
+            navigation: false,
+            pagination: false,
+            effect: {
+              fade: {
+                speed: 400
+              }
+            },
+            callback: {
+                start: function(number)
+                {			
+                    $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                },
+                complete: function(number)
+                {			
+                    $("#slider_content" + number).delay(500).fadeIn(1000);
+                }		
+            },
+            play: {
+                active: false,
+                auto: true,
+                interval: 6000,
+                pauseOnHover: false,
+                effect: "fade"
+            }
+          });
+        });
+        </script>
+	</head>
+
+	<body>
+        <header>
+            <div class="toggleMobile">
+                <span class="menu1"></span>
+                <span class="menu2"></span>
+                <span class="menu3"></span>
+            </div>
+            <div id="mobileMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+                </ul>
+            </div>           
+            <h1>Tennisclub Brütten</h1>
+            <p>1977</p>           
+            
+            <nav>
+            	<h2 class="hidden">Our navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="indexTraining.html">Training</a></li>
+                    <li><a href="indexInterclub.html">Interclub</a></li>
+                    <li><a href="indexVorstand.html">Vorstand</a></li>
+                    <li><a href="indexAgenda.html">Agenda</a></li>
+                    <li><a href="indexFotos.html">Bilder</a></li>
+                    <li><a href="IndexVerweis.html">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        
+        <section class="container">
+        	<h2 class="hidden">Meisterschaften</h2>
+            <article id="slider_content1">
+                <h3>Meisterschaften</h3>
+                <p>Fotografen bitte Bilder an den "Vorstand Webdesign/PR" senden.</p>
+                <a class="button" href="kontaktformular/kontaktWebdesign.php">Kontakt</a>
+            </article>
+            <article id="slider_content2">
+                <h3>Clubanlässe</h3>
+                <p>Fotografen bitte Bilder an den "Vorstand Webdesign/PR" senden.</p>
+                <a class="button" href="kontaktformular/kontaktWebdesign.php">Kontakt</a>
+            </article>
+            <article id="slider_content3">
+                <h3>Verschiedenes</h3>
+                <p>Fotografen bitte Bilder an den "Vorstand Webdesign/PR" senden.</p>
+                <a class="button" href="kontaktformular/kontaktWebdesign.php">Kontakt</a>
+            </article>
+            <div id="slides">
+                <img src="images/slider/slide17.jpg" alt="Some alt text">
+                <img src="images/slider/slide8.jpg" alt="Some alt text">    	
+                <img src="images/slider/slide9.jpg" alt="Some alt text">
+            </div>
+        </section>
+        
+        <section id="spacer">  
+        	<h2 class="hidden">Clubhaus im Chapf</h2>          
+            <p>TCB Tennisclub Brütten - Fotos (Clubanlässe) </p>
+            
+            <div class="search">
+                <form action="#">
+                <img alt="" height="100" src="img/logo16klein.png" width="123">
+                  <!--  <input type="text" name="sitesearch" value="Wort eingeben ..."/>
+                    <input type="submit" name="start_search" class="button" value="Suchen"/>!-->
+                </form>
+            </div>
+                        
+        </section>
+        
+        
+        
+        <section id="boxcontent">
+        	<h2 class="hidden">Meisterschaften</h2>
+            <article>            	               
+                <img src="img/tennis3.png" alt=""/>                
+                <h3>Meisterschaften</h3>
+                
+                <p>        	
+                <a href="http://tcbruetten.ch/CM2016/CM16/index.html" target="_blank">2016 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/TCBM15/index.html" target="_blank">2015 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/events13/CM13/tcb13/index.html" target="_blank">2013 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/CM2011/CME11/index.html" target="_blank">2011 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/CM2009/CME09/index.html" target="_blank">2009 Einzelmeisterschaft</a><br>
+                <a href="http://tcbruetten.ch/2008events/CM08/cm2008/index.html" target="_blank">2008 Einzelmeisterschaft<br>
+				<a href="http://tcbruetten.ch/CM2007/CME07/index.html" target="_blank">2007 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/CM2006/CME06/index.html" target="_blank">2006 Einzelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/events2010/dm10bilder/index.html" target="_blank">2010 Doppelmeisterschaft</a><br>
+                <a href="http://tcbruetten.ch/dm09-web/index.html" target="_blank">2009 Doppelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/dm08/dm08/index.html" target="_blank">2008 Doppelmeisterschaft</a><br>
+				<a href="http://tcbruetten.ch/DM2006/index.html" target="_blank">2006 Doppelmeisterschaft</a><br>
+                <br> 
+                </p>
+            </article>
+            <article>            	     
+                <img src="img/tennis3.png" alt="Some alt text"/>              
+                <h3>Clubanlässe</h3>
+                <p>
+                 <a href="http://tcbruetten.ch/Img40Jahre/Jubi40/index.html" target="_blank">2017 Jubiläum 40 Jahre</a><br>
+        	     <a href="http://tcbruetten.ch/apero16/index.html" target="_blank">2016 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero15/index.html" target="_blank">2015 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero14/index.html" target="_blank">2014 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero13/index.html" target="_blank">2013 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero12/index.html" target="_blank">2012 Eröffnungsapéro</a><br>
+                 <a href="http://tcbruetten.ch/apero09/index.html" target="_blank">2009 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero07/index.html" target="_blank">2007 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/apero06/index.html" target="_blank">2006 Eröffnungsapéro</a><br>
+				 <a href="http://tcbruetten.ch/jass14/index.html" target="_blank">2014 Tennis-Jassabend</a><br>
+                 <a href="http://tcbruetten.ch/events2012/jassd12/index.html" target="_blank">2012 Tennis-Jassabend</a><br>
+				 <a href="http://tcbruetten.ch/images/jass11/index.html" target="_blank">2011 Tennis-Jassabend</a><br>
+				 <a href="http://tcbruetten.ch/TCB%20Jass-Tennis-Abend%202010/index.html" target="_blank">2010 Tennis-Jassabend</a><br>
+                <br> 
+
+                </p>
+            </article>
+            <article>            	    
+                <img src="img/tennis3.png" alt="Some alt text"/>                
+                <h3>Verschiedenes</h3>
+                <p>        	
+                <a href="http://tcbruetten.ch/auwiesenweb/index.html" target="_blank">2011 Auwiesen Tennisplausch</a><br>
+				<a href="http://tcbruetten.ch/auweb/index.html" target="_blank">2008 Auwiesen Tennisplausch</a><br>
+				<a href="http://tcbruetten.ch/mixed07/index.html" target="_blank">2007 Auwiesen Tennisplausch</a><br>
+				<a href="http://tcbruetten.ch/brunchcafl/index.html" target="_blank">2009 Sonntagbrunch</a><br>
+				<a href="http://tcbruetten.ch/brunch07/index.html" target="_blank">2007 Sonntagbrunch</a><br>
+                <a href="http://tcbruetten.ch/brunch06/index.html" target="_blank">2006 Sonntagbrunch</a><br>
+				<a href="http://tcbruetten.ch/diabrunch/index.html" target="_blank">2005 Sonntagbrunch</a><br>
+				<a href="http://tcbruetten.ch/events2012/diashow-df/index.html" target="_blank">2012 Dorffest Brütten</a><br>
+				<a href="http://tcbruetten.ch/2008events/dorffest/Dorffest08/index.html" target="_blank">2008 Dorffest Brütten</a><br>
+                <a href="http://tcbruetten.ch/tcherbst/index.html" target="_blank">2005 Plätze aufräumen</a><br>
+				<a href="http://tcbruetten.ch/Fondue14/index.html" target="_blank">2014 Fondueplausch</a><br>
+				<a href="http://tcbruetten.ch/images/kidsdaydia/index.html" target="_blank">2011 kidsday</a><br>
+				<a href="http://tcbruetten.ch/stangel/index.html" target="_blank">2007 Stangelwirt</a><br>
+				<a href="http://www.tcbruetten.ch/Nostalgie/index.html" target="_blank">Nostalgie</a><br>
+                </p>
+            </article>
+            <br class="clear"/>
+        </section>
+      
+        
+
+        <footer>
+        	<h2 class="hidden">Our footer</h2>
+            <section id="copyright">
+            	<h3 class="hidden">Copyright notice</h3>
+                <div class="wrapper">
+                    <div class="social">
+                        <a href="http://www.tcbruetten.ch/disclaimer.htm" target="_blank"><img src="img/Tennis3.png" alt="disclaimer" width="25" title="disclaimer"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                        <a href="javascript:void(0)"><img src="img/Tennis3.png" alt="Some alt text" width="25"/></a>
+                       
+                        
+                    </div>
+                    &copy; Copyright 2016 by
+					<a href="http://www.tcbruetten.ch/copyInfo.htm" target="_blank"><span class="auto-style1">
+					TC Brütten</span></a>. All Rights Reserved.
+                </div>
+            </section>
+            <section class="wrapper">
+            	<h3 class="hidden">Footer content</h3>
+                <article class="column">
+                    <h4>Kontakt</h4>
+                    Präsident: Christian Fuchs<br>Aktuar: Mike Vogt<br>
+					Spielleiter: Adi Vogt</article>
+                <article class="column midlist">
+                    <h4>Adresse</h4>
+                    <ul>
+                        <li>Im Chapf</li>
+                        <li><a href="http://www.bruetten.ch" target="_blank" title="Gemeinde Brütten">8311 Brütten</a></li>
+                        <li><a href="mitglieder/mitglieder.php" target="_blank">Interne Telefonliste</a></li>
+                        <li>tcbruetten.ch</li>
+                    </ul>
+                </article>
+                <article class="column rightlist">
+                    <h4>Anfahrt</h4>
+                    <ul>
+                        <li>
+						<a href="http://www.tcbruetten.ch/plan.htm" target="_blank"><img src="img/tennis3.png" width="80" alt="Plan klein" title="Wegbeschreibung"/><span> </span>
+						</a></li>
+                    </ul>
+                    <br class="clear"/>
+                </article>
+            </section>
+        </footer>
+	</body>
+</html>
