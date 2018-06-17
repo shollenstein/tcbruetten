@@ -178,6 +178,14 @@ nav ul li a:hover
         display: none;
 }
 
+#pageContent
+{
+	width: auto;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 50px 10px 30px 10px;
+}
+
 section
 {
 	margin: 20px auto;
@@ -192,8 +200,6 @@ section.single_column
 	font-family: 'Open Sans', sans-serif;
 	clear:both;
 	width:auto;
-	max-width:900px;
-/* 	margin:0 auto; */
 }
 
 .single_column article.column
@@ -202,7 +208,6 @@ section.single_column
 	font-size:14px;
 	float:left;
 	width:auto;
-	max-width: 900px;
 }
 
 article.column h3
@@ -220,9 +225,7 @@ article.column h3
 #boxcontent
 {
         width:auto;
-        max-width:900px;
         margin:0 auto;
-/*         padding:70px 0 45px 0; */
 }
 
 #boxcontent article
@@ -335,7 +338,7 @@ h3.subtitle
 {
         width:auto;
         height:70px;
-        margin: 0 auto 70px;
+        margin: 0 auto;
         background-color:#e56038;
         position:relative;
         font-family: 'Open Sans', sans-serif;
@@ -370,7 +373,6 @@ h3.subtitle
         font-family: 'Open Sans', sans-serif;
         clear:both;
         width:auto;
-        max-width:900px;
 }
 
 #four_columns h2, #text_columns h3
@@ -499,7 +501,7 @@ footer .wrapper
 {
         line-height:25px;
         margin: 0 auto;
-        padding-top:30px;
+        padding: 30px 10px 0;
         width:auto;
         max-width:900px;
         font-size:14px;
@@ -641,7 +643,7 @@ footer .wrapper .column h4
 }
 
 /* Center the slideshow */
-.container
+.slides-container
 {
         width:auto;
         margin: 0 auto;
@@ -695,7 +697,7 @@ footer .wrapper .column h4
         {
                 display:inline;
         }
-        .container .button
+        .slides-container .button
         {
                 display:none;
         }
@@ -759,7 +761,7 @@ footer .wrapper .column h4
 
 @media (max-width: 765px)
 {
-        .container
+        .slides-container
         {
                 height:1px;
                 top: -1500px;
