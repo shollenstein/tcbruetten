@@ -40,7 +40,9 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 		<script src="js/modal-image.js"></script>
 		
 		<!-- Fancybox (Image Gallery)		 -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<!-- 		Bei der Version im Netz fehlt ein Eintrag: @media (max-height:576px). Dadurch wird das Bild grösser auf kleinen Bildschirmen, das Bild überlappt dann die Toolbar. -->
+<!-- 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 		
 		<!--[if lt IE 9]>
@@ -169,6 +171,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 		
 		$(document).ready(function() {
 			console.log('document ready');
+			
+// 			$.fancybox.defaults.thumbs.autoStart = true;
 			
 			// part 1
 			registerLinks();

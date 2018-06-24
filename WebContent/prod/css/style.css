@@ -434,10 +434,33 @@ h3.subtitle
         margin: 120px 0;
 }
 
-.gallery img
+.gallery-flex-container
 {
-	width: 150px;
-	margin: 0 10px 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.gallery-image-container
+{
+	display: table;
+	margin-bottom: 20px;
+	margin-right: 25px;
+}
+
+.gallery-image
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	/* width: 200px; /* optional */
+	/* height: 200px; /* optional */
+}
+
+.gallery-image img
+{
+	max-height: 200px;
+	max-width: 200px;
 	box-shadow: 3px 3px 5px grey;
 }
 
