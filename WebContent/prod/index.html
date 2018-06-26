@@ -182,10 +182,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 			
 			function hashChange() {
 				console.log('hashChange(): hash=' + location.hash);
-				var page = location.hash.slice(1);
-				if (page != "") {
-					loadPage(page, originalTitle);
-				}
+				var page = location.hash.slice(1) || 'home';
+				loadPage(page, originalTitle);
 			}
 			
 			// part 3
@@ -221,7 +219,11 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 						showSlideshow();
 					});
 				}
-				scroll(0,0);
+// 				scroll(0,0);
+				if (page == 'clubmeisterschaften') {
+					scroll(0,0);
+				}
+
 				showSlideshow();
 				registerLinks();
 			});
