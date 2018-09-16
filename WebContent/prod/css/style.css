@@ -191,6 +191,7 @@ section
 	margin: 20px auto;
 }
 
+/* ------------------------------------------------------ */
 
 /* ONE COLUMN */
 
@@ -218,6 +219,7 @@ article.column h3
 	margin-bottom: 20px;
 }
 
+/* ------------------------------------------------------ */
 
 /* 2 COLUMNS */
 
@@ -240,6 +242,7 @@ section.two_columns
 	margin-right: 0px;
 }
 
+/* ------------------------------------------------------ */
 
 /* 3 COLUMNS */
 
@@ -280,6 +283,7 @@ section.three_columns h2
 	margin-bottom: 20px;
 }
 
+/* ------------------------------------------------------ */
 
 /* FOUR COLUMNS Deprecated, make new as with 3 Columns */
 
@@ -312,7 +316,7 @@ section.three_columns h2
 	display:block;
 }
 
-
+/* ------------------------------------------------------ */
 
 
 
@@ -967,6 +971,12 @@ article.sponsor {
 		margin: 30px 20px 0 auto;
 		width: 95%;
 	}
+	
+	.two_columns article.column
+	{
+		width: auto;
+	}
+	
 	article.vorstand
 	{
 		height: auto;
@@ -977,6 +987,7 @@ article.sponsor {
 		height: auto;
 		margin-top: 25px; /* zusätzlich, da height auf auto. margin-bottom kann nicht überschrieben werden */
 	}
+	
 	footer .wrapper
 	{
 		width:auto;
