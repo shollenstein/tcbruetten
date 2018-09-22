@@ -227,7 +227,7 @@ article.column h3
 	margin-bottom: 20px;
 }
 
-.single_column img
+.single_column > img
 {
 	float: left;
 	width: 30px;
@@ -286,7 +286,7 @@ section.two_columns p
 	padding: 20px 0 12px;
 }
 
-.two_columns article img
+.two_columns article > img
 {
 	float: left;
 	width: 30px;
