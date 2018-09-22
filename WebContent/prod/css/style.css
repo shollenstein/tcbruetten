@@ -203,6 +203,14 @@ section.single_column
 	width:auto;
 }
 
+section.single_column h3
+{
+	font-size:20px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0 15px;
+	margin-bottom: 20px;
+}
+
 .single_column article.column
 {
 	margin: 0px 0 30px;
@@ -215,8 +223,16 @@ article.column h3
 {	
 	font-size:20px;
 	border-bottom: 1px solid #D6D0C1;
-	padding: 20px 0;
+	padding: 20px 0 12px;
 	margin-bottom: 20px;
+}
+
+.single_column img
+{
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 15px 10px 17px 0;
 }
 
 /* ------------------------------------------------------ */
@@ -227,9 +243,23 @@ section.two_columns
 {
 	width: auto;
 	font-size: 14px;
+	clear: both;
 }
 
-.two_columns article.column
+section.two_columns h2
+{
+	font-size:24px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0 15px;
+	margin-bottom: 20px;
+}
+
+section.two_columns p
+{
+	margin-bottom: 30px;
+}
+
+.two_columns article
 {
 	float: left;
 	width: 425px;
@@ -237,9 +267,31 @@ section.two_columns
 	margin-bottom: 30px;
 }
 
-.two_columns article.column:nth-of-type(2)
+.two_columns article:nth-of-type(2n)
 {
 	margin-right: 0px;
+}
+
+.two_columns article h3
+{
+	font-size: 20px;
+	border-bottom: 1px solid #D6D0C1;
+	padding: 20px 0 12px;
+	margin-bottom: 20px;
+}
+
+.two_columns article h4
+{
+	font-size: 17px;
+	padding: 20px 0 12px;
+}
+
+.two_columns article img
+{
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 15px 10px 17px 0;
 }
 
 /* ------------------------------------------------------ */
