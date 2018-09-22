@@ -1024,9 +1024,10 @@ article.sponsor {
 		width: 95%;
 	}
 	
-	.two_columns article.column
+	.two_columns article
 	{
-		width: auto;
+		width: 100%;
+		margin-right: 0;
 	}
 	
 	article.vorstand
