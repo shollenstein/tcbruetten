@@ -254,6 +254,16 @@ h5.subtitle
 	margin-bottom: 10px;
 }
 
+figcaption
+{
+	color: #838383;
+	text-align: center;
+}
+
+figcaption a
+{
+	text-decoration: none;	
+}
 
 /* ------------------------------------------------------ */
 /* ONE COLUMN */
