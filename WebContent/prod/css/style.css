@@ -270,6 +270,13 @@ figcaption a
 	text-decoration: none;	
 }
 
+img.pdf_icon {
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-left: 0.5em;
+}
+
 /* ------------------------------------------------------ */
 /* ONE COLUMN */
 
