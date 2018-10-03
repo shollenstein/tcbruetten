@@ -277,6 +277,16 @@ img.pdf_icon {
 	margin-left: 0.5em;
 }
 
+div.float-left {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+div.float-right {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
 /* ------------------------------------------------------ */
 /* ONE COLUMN */
 
@@ -284,7 +294,7 @@ img.pdf_icon {
 section.single_column article
 {
 	margin: 0px 0px 30px;
-	width: auto;
+	width: 100%;
 }
 
 
