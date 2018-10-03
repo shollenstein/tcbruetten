@@ -270,11 +270,18 @@ figcaption a
 	text-decoration: none;	
 }
 
-img.pdf_icon {
+img.icon-right {
 	width: 24px;
 	height: 24px;
 	vertical-align: middle;
 	margin-left: 0.5em;
+}
+
+img.icon-left {
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 0.5em;
 }
 
 div.float-left {
