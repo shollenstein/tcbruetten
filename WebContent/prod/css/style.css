@@ -371,7 +371,7 @@ article.ic-team {
 }
 
 
-#slider_content1, #slider_content2, #slider_content3
+#slider_content, #slider_content1, #slider_content2, #slider_content3
 {
 	line-height: 25px;
 	font-family: 'Open Sans', sans-serif;
@@ -383,7 +383,7 @@ article.ic-team {
 	z-index:11;
 }
 
-#slider_content1 h3, #slider_content2 h3, #slider_content3 h3
+#slider_content h3, #slider_content1 h3, #slider_content2 h3, #slider_content3 h3
 {
 	color:#EBE8DE;
 	font-size:25px;
@@ -396,15 +396,15 @@ article.ic-team {
 	display:inline-block;
 }
 
-#slider_content1
+#slider_content, #slider_content1
 {
 	display:block;
 }
 
-#slider_content1 p, #slider_content2 p, #slider_content3 p
+#slider_content p, #slider_content1 p, #slider_content2 p, #slider_content3 p
 {
 	font-size: 16px;
-	margin:0 0 30px 0;
+	margin: 0 0 10px 0;
 	color:#4a463b;
 	background-color:#EBE8DE;
 	padding:10px 15px;
@@ -446,7 +446,6 @@ article.ic-team {
 	height:70px;
 	margin: 0 auto;
 	background-color:#e56038;
-	position:relative;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
 	font-size:18px;
@@ -454,20 +453,24 @@ article.ic-team {
 
 #spacer p
 {
-	margin-top:22px;
-	width:auto;
-	position:absolute;
+	margin: 22px 20px 0 20px;
+	position: absolute;
 	left:50%;
 	margin-left:-450px;
 }
 
-#spacer .search
+#spacer div.logo
 {
-	margin-top:15px;
-	width:auto;
-	position:absolute;
-	right:50%;
-	margin-right:-480px;
+	position: absolute;
+	right: 50%;
+	margin-right: -480px;
+	margin-top: 15px;
+}
+
+#spacer div.logo img
+{
+	width: 123px;
+	height: 100px;
 }
 
 
@@ -757,11 +760,11 @@ footer .wrapper .column h4
 	color:red;
 }
 
-#slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button
-{
-	display:none;
-	color:#000;
-}
+/* #slider_content p, #slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button */
+/* { */
+/* 	display:none; */
+/* 	color:#000; */
+/* } */
 
 
 /* MISC */
@@ -782,20 +785,20 @@ footer .wrapper .column h4
 
 @media (max-width: 1215px)
 {
-	#slider_content1, #slider_content2, #slider_content3
+	#slider_content, #slider_content1, #slider_content2, #slider_content3
 	{
 		width:auto;
 		margin-right:50px;
 	}
-	#slider_content1 h2, #slider_content2 h2, #slider_content3 h2
+	#slider_content h2, #slider_content1 h2, #slider_content2 h2, #slider_content3 h2
 	{
 		font-size:18px;
 	}
-	#slider_content1 p, #slider_content2 p, #slider_content3 p
+	#slider_content p, #slider_content1 p, #slider_content2 p, #slider_content3 p
 	{
 		font-size:14px;
 	}
-	#slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button
+	#slider_content p .responsive_button, #slider_content1 p .responsive_button, #slider_content2 p .responsive_button, #slider_content3 p  .responsive_button
 	{
 		display:inline;
 	}
@@ -812,23 +815,17 @@ footer .wrapper .column h4
 	{
 		font-size:15px;
 	}
-	#spacer .search
-	{
-		margin-top:19px;
-		margin-right:-385px;
-	}
+
 	#spacer p
 	{
-		margin-left:-370px;
+		left: 0;
+		margin-left: 15px;
 	}
-	input
+	
+	#spacer div.logo
 	{
-		padding:4px;
-		font-size:14px;
-	}
-	input[type=submit]
-	{
-		padding: 1px 14px;
+		right: 0;
+		margin-right: 15px;
 	}
 	
 	section.four_columns article:nth-of-type(4n)
@@ -861,7 +858,8 @@ footer .wrapper .column h4
 	}
 }
 
-@media (max-width: 775px)
+/** Ab hier Mobile Menü */
+@media (max-width: 820px)
 {
 	header
 	{
@@ -869,17 +867,6 @@ footer .wrapper .column h4
 		margin-top: 20px;
 		text-align: center;
 	}	
-	#spacer
-	{
-		height:auto;
-	}
-	#spacer p
-	{
-		text-align:center;
-		position:static;
-		margin: 0 auto;
-		padding:15px 0 7px 0;
-	}
 	
 	.slides-container
 	{
@@ -895,12 +882,6 @@ footer .wrapper .column h4
 		top:100px;
 	}
 
-	#spacer .search
-	{
-		text-align:center;
-		position:static;
-		margin: 0 auto;
-	}
 	footer
 	{
 		padding-bottom:70px;
@@ -1053,6 +1034,33 @@ footer .wrapper .column h4
 
 @media (max-width: 540px)
 {
+	#spacer p
+	{
+		margin-top: 10px;
+		position: relative;
+	}
+	
+	#spacer div
+	{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#spacer div.logo
+	{
+		text-align: center;
+		margin: 10px auto;
+		position: relative;
+		right: 0;
+		float: left;
+	}
+	
+	#spacer div.logo img
+	{
+		width: 62px;
+		height: 50px;		
+	}
 	
 	article.vorstand
 	{
