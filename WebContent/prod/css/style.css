@@ -271,11 +271,6 @@ figcaption
 	text-align: center;
 }
 
-figcaption a
-{
-	text-decoration: none;	
-}
-
 img.icon-right {
 	width: 24px;
 	height: 24px;
