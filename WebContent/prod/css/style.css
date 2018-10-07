@@ -331,7 +331,6 @@ section.two_columns article:nth-of-type(2n)
 /* ------------------------------------------------------ */
 /* 3 COLUMNS */
 
-/* 3 x 273 + 2 x 40 = 899 */
 section.three_columns article
 {
 	width: 30%;
@@ -348,7 +347,6 @@ section.three_columns article:nth-of-type(3n)
 /* ------------------------------------------------------ */
 /* 4 COLUMNS */
 
-/* 4 x 202 + 3 x 30 = 898 */
 section.four_columns article
 {
 	width: 22%;
@@ -376,6 +374,20 @@ article.ic-team {
 	height: 240px;
 }
 
+/* ------------------------------------------------------ */
+/* SUBMENU */
+
+#submenu {
+	width: 70%;
+}
+
+#submenu p {
+	padding: 10px 20px 10px 15px;
+	background: #333333;
+	color: #ababab;
+}
+
+/* ------------------------------------------------------ */
 
 .slider-content
 {
@@ -545,6 +557,43 @@ article.ic-team {
 .gallery article.column
 {
 	float: none;
+}
+
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+/* TABELLEN MEISTERSCHAFTEN */
+
+table.meisterschaft
+{
+	text-align: left;
+	width: 99%;
+}
+
+table.meisterschaft tr th
+{
+	font-weight: bold;
+	padding: 5px 20px 5px 10px;
+	border: 1px solid #CCCCCC;
+	background-color: #f6c9bc;
+	color: #4d4d4d;
+}
+
+table.meisterschaft tr td
+{
+	padding: 3px 20px 3px 10px;
+	border: 1px solid #CCCCCC;
+}
+
+table.meisterschaft tr td:nth-child(1)
+{
+	background-color: #EEE;
+}
+
+table.meisterschaft tr td:nth-child(2)
+{
+	background-color: #F8F8F8;
 }
 
 /* ------------------------------------------------------ */
@@ -1086,6 +1135,11 @@ footer .wrapper .column h4
 	{
 		width: 62px;
 		height: 50px;		
+	}
+	
+	#submenu {
+		width: 100%;
+		margin-top: 20px;
 	}
 	
 	article.vorstand

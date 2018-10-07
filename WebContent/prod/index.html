@@ -197,14 +197,20 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 				// special treatment for gallery page
 				if ($('#galleryHeader').length) {				
 					console.log('loading galleryHeader');
-					$('#galleryHeader').load('bilderHeader.html', function() {
+					$('#galleryHeader').load('bilder-header.html', function() {
+						showSlideshow();
+					});
+				} else if ($('#turniere-header').length) {
+					// special treatment for turniere page
+					console.log('loading turniere-header');
+					$('#turniere-header').load('turniere-header.html', function() {
 						showSlideshow();
 					});
 				}
 // 				scroll(0,0);
-				if (page == 'clubmeisterschaften') {
-					scroll(0,0);
-				}
+// 				if (page == 'clubmeisterschaften') {
+// 					scroll(0,0);
+// 				}
 
 				showSlideshow();
 				registerLinks();
