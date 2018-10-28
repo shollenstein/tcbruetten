@@ -422,9 +422,9 @@ article.ic-team {
 {
 	font-size: 16px;
 	margin: 0 0 10px 0;
-	color:#4a463b;
-	background-color:#EBE8DECC;
-	padding:10px 15px;
+	color: #4a463b;
+	background-color: hsla(46, 25%, 90%, 0.7);
+	padding: 10px 15px;
 	border-radius: 5px;
 }
 
