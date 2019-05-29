@@ -3,7 +3,7 @@
 FileETag MTime Size
 ExpiresActive On
 
-ExpiresDefault "now plus 15 minute"
+ExpiresDefault "now plus 1 minute"
 
 # CSS expiration
 ExpiresByType text/css "now plus 1 day"
