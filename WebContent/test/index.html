@@ -15,51 +15,49 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="Cache-control" content="no-cache, must-revalidate" />
+		<meta http-equiv="expires" content="-1" />
+		
 		<title>TC Brütten</title>
 		
 		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 		
-		<link href="lightbox/css/lightbox.css" rel="stylesheet" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
 		
 		<script src="js/vendor/modernizr.min.js"></script>
 		<script src="js/vendor/respond.min.js"></script>
 		
 		<!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
-		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/vendor\/3.3.1.jquery.min.js"><\/script>')</script>
 		
-		<script src="lightbox/js/lightbox.js"></script>
 		<script src="js/vendor/prefixfree.min.js"></script>
 		<script src="js/vendor/jquery.slides.min.js"></script>
 		<script src="js/script.js"></script>
 		
-		<!-- Modal Image (Single popup images) -->
-		<link rel="stylesheet" href="css/modal-image.css" type="text/css" media="screen" />
-		<script src="js/modal-image.js"></script>
-		
 		<!-- Fancybox (Image Gallery)		 -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<!-- 		Bei der Version im Netz fehlt ein Eintrag: @media (max-height:576px). Dadurch wird das Bild grösser auf kleinen Bildschirmen, das Bild überlappt dann die Toolbar. -->
+<!-- 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		
 		<!--[if lt IE 9]>
 			<style>
 				header
 				{
 					margin: 0 auto 20px auto;
+				} 
+				.auto-style1 {
+					font-size: 100%;
+					color: #ABABAB;
 				}
-				#four_columns .img-item figure span.thumb-screen
-				{
-					display:none;
-				}  
-			.auto-style1 {
-				font-size: 100%;
-				color: #ABABAB;
-			}
-			.auto-style2 {
-				text-align: left;
-			}
+				.auto-style2 {
+					text-align: left;
+				}
 			</style>
 		<![endif]-->
 		
@@ -80,6 +78,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 					<li><a class="mylink" href="home.html">Home</a></li>
 					<li><a class="mylink" href="training.html">Training</a></li>
 					<li><a class="mylink" href="interclub.html">Interclub</a></li>
+					<li><a class="mylink" href="turniere.html">Turniere</a></li>
 					<li><a class="mylink" href="vorstand.html">Vorstand</a></li>
 					<li><a class="mylink" href="agenda.html">Agenda</a></li>
 					<li><a class="mylink" href="bilder.html">Bilder</a></li>
@@ -95,10 +94,11 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 					<li><a class="mylink" href="home.html">Home</a></li>
 					<li><a class="mylink" href="training.html">Training</a></li>
 					<li><a class="mylink" href="interclub.html">Interclub</a></li>
+					<li><a class="mylink" href="turniere.html">Turniere</a></li>
 					<li><a class="mylink" href="vorstand.html">Vorstand</a></li>
 					<li><a class="mylink" href="agenda.html">Agenda</a></li>
 					<li><a class="mylink" href="bilder.html">Bilder</a></li>
-					<li><a class="mylink" href="links.html">links</a></li>
+					<li><a class="mylink" href="links.html">Links</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -108,30 +108,16 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 		<div id="mainContent"></div>
 		
 		
-		<!-- The Modal -->
-		<div id="imgModal" class="modal">
-			<!-- The Close Button -->
-			<span class="close">&times;</span>
-		
-			<!-- Modal Content (The Image) -->
-			<img class="modal-content" id="imgModalImg" />
-		
-			<!-- Modal Caption (Image Text) -->
-			<div id="caption"></div>
-		</div>
-		
 		
 		<footer>
-			<h2 class="hidden">Our footer</h2>
 			<section id="copyright" style="left: 0; margin-bottom: 0;">
-				<h3 class="hidden">Copyright notice</h3>
 				<div class="wrapper">
 					<div class="social">
 						<a href="disclaimer.html" target="_blank"><img src="images/logos/tennis3.png" alt="disclaimer" width="25" title="disclaimer"/></a>
-						<a href="javascript:void(0)"><img src="images/logos/tennis3.png" alt="Some alt text" width="25"/></a>
-						<a href="javascript:void(0)"><img src="images/logos/tennis3.png" alt="Some alt text" width="25"/></a>
+						<a href="javascript:void(0)" style="cursor: default"><img src="images/logos/tennis3.png"  width="25"/></a>
+						<a href="javascript:void(0)" style="cursor: default"><img src="images/logos/tennis3.png"  width="25"/></a>
 					</div>
-					&copy; Copyright 2018 by
+					&copy; Copyright 2019 by
 					<a href="copyInfo.html" target="_blank"><span class="auto-style1">TC Brütten</span></a>. All Rights Reserved.
 				</div>
 			</section>
@@ -170,6 +156,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 		$(document).ready(function() {
 			console.log('document ready');
 			
+// 			$.fancybox.defaults.thumbs.autoStart = true;
+			
 			// part 1
 			registerLinks();
 			
@@ -178,10 +166,8 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 			
 			function hashChange() {
 				console.log('hashChange(): hash=' + location.hash);
-				var page = location.hash.slice(1);
-				if (page != "") {
-					loadPage(page, originalTitle);
-				}
+				var page = location.hash.slice(1) || 'home';
+				loadPage(page, originalTitle);
 			}
 			
 			// part 3
@@ -213,11 +199,21 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 				// special treatment for gallery page
 				if ($('#galleryHeader').length) {				
 					console.log('loading galleryHeader');
-					$('#galleryHeader').load('bilderHeader.html', function() {
+					$('#galleryHeader').load('bilder-header.html', function() {
+						showSlideshow();
+					});
+				} else if ($('#turniere-header').length) {
+					// special treatment for turniere page
+					console.log('loading turniere-header');
+					$('#turniere-header').load('turniere-header.html', function() {
 						showSlideshow();
 					});
 				}
-				scroll(0,0);
+// 				scroll(0,0);
+// 				if (page == 'clubmeisterschaften') {
+// 					scroll(0,0);
+// 				}
+
 				showSlideshow();
 				registerLinks();
 			});
@@ -234,39 +230,7 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 		
 
 
-// 		$(function() {
-// 			$(window).hashchange(function() {
-// 				if (location.hash == "#home") {
-// 					gotoHome();
-// 				} else if (location.hash == "#training") {
-// 					gotoTraining();
-// 				} else if (location.hash == "#clubmeisterschaften") {
-// 					gotoClubmeisterschaften();
-// 				}
-// 			})
 
-// 			// Since the event is only triggered when the hash changes, we need to trigger
-// 			// the event now, to handle the hash the page may have loaded with.
-// 			$(window).hashchange();
-// 		});
-
-// 		function gotoHome() {
-// 			loadPage("home.html");
-// 		}
-
-// 		function gotoTraining() {
-// 			loadPage("training.html");
-// 		}
-
-// 		function gotoClubmeisterschaften() {
-// 			loadPage("clubmeisterschaften.html");
-// 		}
-
-// 		// This loads the actual page.
-// 		function loadPage(page) {
-// 			$('#mainContent').load(page);
-// 			// 			window.location.hash = page;
-// 		}
 
 
 		function showSlideshow() {
@@ -285,18 +249,18 @@ Please note that you may not distribute the files downloaded from Lingulo.com or
 					start: function(number)
 					{			
 // 						console.log("callback start: " + number);
-						$("[id^=slider_content]").fadeOut(500);
+// 						$("[id^=slider_content]").fadeOut(500);
 					},
 					complete: function(number)
 					{	
 // 						console.log("callback complete: " + number);
-						$("#slider_content" + number).delay(500).fadeIn(1000);
+// 						$("#slider_content" + number).delay(500).fadeIn(1000);
 					}		
 				},
 				play: {
 					active: false,
 					auto: true,
-					interval: 6000,
+					interval: 8000,
 					pauseOnHover: false,
 					effect: "fade"
 				}

@@ -10,13 +10,25 @@
 	    	$(this).toggleClass("active");
 	        $("#mobileMenu").slideToggle(500);
 	    });
+	    
+	    $('#mobileMenu ul li a').click(function()
+	    {
+	    	hideMobileMenu();
+	    });
 	});
+	
 	$(window).on("resize", function()
 	{
 		if($(this).width() > 500)
 		{
-			$("#mobileMenu").hide();
-			$(".toggleMobile").removeClass("active");
+			hideMobileMenu();
 		}
 	});
 })(jQuery, window, document);
+
+
+
+function hideMobileMenu() {
+	$('#mobileMenu').hide();
+	$(".toggleMobile").removeClass("active");
+}
