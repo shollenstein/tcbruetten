@@ -18,7 +18,7 @@ textarea {
 	 * [VERSION MIT CAPTCHA]
 	 *
 	 * Dieser 1. Teil kann angepasst werden, um die Formularfelder zu beeinflussen ($fields)
-	 * Ausserdem solltest Du in $adminMail deine E-Mail-Adresse speichern
+	 * Ausserdem solltest Du in $mailTo deine E-Mail-Adresse speichern
 	 * $formTitle beinhaltet die Überschrift des Formulars
 	 * In $msgInfo ist der Hinweistext gespeichert, der angezeigt werden soll
 	 * $msgError wird angezeigt, wenn nicht alle Pflichtfelder ausgefüllt wurden
@@ -26,7 +26,8 @@ textarea {
 	 * Speichere in $captchaPath den Pfad von der aktuellen Datei aus zur captcha.php
 	 */
 	
-	$adminMail = 'fueche@bluewin.ch';
+	$mailTo = 'fueche@bluewin.ch';
+	$mailFrom = 'info@tcbruetten.ch';
 	
 	$formTitle = 'Kontaktformular Präsident (Christian Fuchs)';
 	$msgInfo = 'Um mich zu kontaktieren, füllen Sie bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
@@ -58,7 +59,12 @@ textarea {
 		// 2. Eingaben prüfen //
 		$mailSubject = 'Nachricht über tcbruetten.ch';
 		$mailText = "Du hast eine Nachricht über das Kontaktformular von www.tcbruetten.ch erhalten.\r\n\r\n";
-		$mailHeader = "From: kontaktformular@".$_SERVER['HTTP_HOST']."\r\n"."Content-type: text/plain; charset=utf-8"."\r\n";
+		// $mailHeader = "From: kontaktformular@".$_SERVER['HTTP_HOST']."\r\n"."Content-type: text/plain; charset=utf-8"."\r\n";
+		$mailReplyTo = $_POST[field2url("E-Mail-Adresse")];
+		$mailHeader = "From: " . $mailFrom . "\r\n" .
+						"Reply-To: " . $mailReplyTo . "\r\n" .
+						"X-Mailer: PHP/" . phpversion() . "\r\n" .
+						"Content-type: text/plain; charset=utf-8";
 		
 		// Einzelne Felder auslesen //
 		foreach ($fields AS $name => $settings) {
@@ -80,7 +86,7 @@ textarea {
 		
 		if (!isset($sent)) {
 			// Nach erfolgreicher Überprüfung E-Mail verschicken //			
-			mail($adminMail, $mailSubject, $mailText, $mailHeader);
+			mail($mailTo, $mailSubject, $mailText, $mailHeader);
 			
 			echo "<h1>".$formTitle."</h1>" .
 					"<p>".$msgSent."</p>";
