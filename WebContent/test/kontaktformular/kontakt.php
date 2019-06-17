@@ -58,6 +58,7 @@ textarea {
 	if (isset($_POST['send']) && isset($_POST['captcha_code']) && isset($_POST['email'])) {
 		// 2. Eingaben prüfen //
 		$mailSubject = 'Nachricht über tcbruetten.ch';
+		$mailSubject = "=?utf-8?b?".base64_encode($mailSubject)."?=";
 		$mailText = "Du hast eine Nachricht über das Kontaktformular von www.tcbruetten.ch erhalten.\r\n\r\n";
 		// $mailHeader = "From: kontaktformular@".$_SERVER['HTTP_HOST']."\r\n"."Content-type: text/plain; charset=utf-8"."\r\n";
 		$mailReplyTo = $_POST[field2url("E-Mail-Adresse")];
