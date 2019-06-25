@@ -30,10 +30,12 @@ textarea {
 	$mailFrom = 'info@tcbruetten.ch';
 	
 	$formTitle = 'Kontaktformular Webdesign/PR (Silvan Hollenstein)';
-	$msgInfo = 'Um mich zu kontaktieren, füllen Sie bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
+	$msgInfo = 'Um mich zu kontaktieren, fülle bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
 	$msgError = 'Es ist ein Fehler aufgetreten: Es wurden nicht alle Felder korrekt ausgefüllt.';
-	$msgSent = 'Ihre Anfrage wurde erfolgreich verschickt.';
-	$captchaPath = '/kontaktformular/captcha/captcha.php';
+	$msgWrongCaptcha = 'Das Captcha wurde nicht korrekt ausgefüllt. Bitte probier es noch einmal, oder lade ein neues Bild.';
+	$msgMandatoryFieldMissing = 'Bitte fülle alle erforderlichen Felder (*) aus.';
+	$msgSent = 'Deine Anfrage wurde erfolgreich verschickt.';
+	$captchaPath = 'captcha/captcha.php';
 	
 	$fields = array	(
 						// 'Feldname'		=>		 Typ, Pflichtfeld?, Ergänzungen (z.B. bei select-Feld)
@@ -53,6 +55,11 @@ textarea {
 	function field2url($fieldname) {
 		return "f_".preg_replace('/([^a-z0-9-_]+)/', '', strtolower($fieldname));
 	}
+
+	$sent = false;
+	$wrongCaptcha = false;
+	$mandatoryFieldMissing = false;
+
 	
 	/* Ausgabe des Formulars  */
 	if (isset($_POST['send']) && isset($_POST['captcha_code']) && isset($_POST['email'])) {
@@ -71,7 +78,7 @@ textarea {
 		foreach ($fields AS $name => $settings) {
 			if ( !( !$settings[1] || ( $settings[1] && isset($_POST[field2url($name)]) && $_POST[field2url($name)] != '' ) ) ) {
 				// Pflichtfeld nicht ausgefüllt => Abbruch //
-				$sent = false;
+				$mandatoryFieldMissing = true;
 				break;
 			} else if ($_POST[field2url($name)] != '') {
 				// Inhalt (wenn nicht leer) in die E-Mail schreiben //
@@ -80,30 +87,38 @@ textarea {
 		}
 		
 		// Kurzer Spam-Check inkl. Captcha-Check //
-		if ($_POST['captcha_code'] != $_SESSION['captcha_spam'] || $_POST['email'] != '') {
-			// Bot => Abbruch //
-			$sent = false;
+		if ($_POST['captcha_code'] != $_SESSION['captcha_text'] || $_POST['email'] != '') {
+			// Falsche Captcha-Eingabe oder Bot => Abbruch //
+			$wrongCaptcha = true;
 		}
-		
-		if (!isset($sent)) {
-			// Nach erfolgreicher Überprüfung E-Mail verschicken //			
-			mail($mailTo, $mailSubject, $mailText, $mailHeader);
-			
-			echo "<h1>".$formTitle."</h1>" .
-					"<p>".$msgSent."</p>";
-			
-			$sent = true;
-		}
-	} else
-		$sent = false;
 
-	if (!$sent) {
+		if (!$mandatoryFieldMissing && !$wrongCaptcha) {
+			// Nach erfolgreicher Überprüfung E-Mail verschicken //			
+			$sent = mail($mailTo, $mailSubject, $mailText, $mailHeader);
+		}
+	}
+
+
+	if ($sent) {
+		echo	"<h1>" . $formTitle . "</h1>" .
+				"<p>" . $msgSent . "</p>";
+
+	} else {
 		// 3. Formular ausgeben (Beginn des Formulars) //
-		echo "<h1>".$formTitle."</h1>" .
-				"<p>".$msgInfo."</p>" .
-				((isset($_POST['send'])) ? $msgError : '') .
-				"<form action=\"?".$_SERVER['QUERY_STRING']."\" method=\"POST\">" .
-					'<table>';
+		echo "<h1>" . $formTitle . "</h1>" .
+				"<p>" . $msgInfo . "</p>";
+
+		if (isset($_POST['send'])) {
+			if ($mandatoryFieldMissing) {
+				echo '<p style="color: red;">' . $msgMandatoryFieldMissing . '</p>';
+			} else if ($wrongCaptcha) {
+				echo '<p style="color: red;">' . $msgWrongCaptcha . '</p>';
+			} else {
+				echo '<p style="color: red;">' . $msgError . '</p>';
+			}
+		}
+
+		echo "<form action=\"?" . $_SERVER['QUERY_STRING'] . "\" method=\"POST\">" . '<table>';
 				
 		// Felder auslesen //
 		foreach ($fields AS $name => $settings) {
@@ -135,15 +150,17 @@ textarea {
 		}
 		
 		// Formular-Ausgabe abschliessen und Captcha einbinden //
-		echo			"<tr><td>Spam-Schutz: (*)</td><td><img src=\"".$captchaPath."\" alt=\"Captcha\" width=140 height=40 /><br /><input type=\"text\" name=\"captcha_code\" size=9 maxlength=5 /></td></tr>" .
+		echo		"<tr><td>Spam-Schutz: (*)</td><td>" .
+						"<img src=\"" . $captchaPath . "?RELOAD=\" alt=\"Captcha\" title=\"Klicken, um das Captcha neu zu laden\" onclick=\"this.src+=1; document.getElementById('captcha_code').value='';\" width=140 height=40 /> <br />" .
+						"<input type=\"text\" name=\"captcha_code\" size=9 maxlength=6 />" .
+					"</td></tr>" .
 					'</table>' .
 					'<input type="text" name="email" style="display:none;" />' .
 					'<input type="hidden" name="send" value=1 />' .
 					'<input type="submit" value="Formular abschicken" />'.
 				'</form>';
 	}
-	
-	
+
 ?>
 
 <!-- Hier kann der Inhalt deiner Seite hinter das Kontaktformular platziert werden -->

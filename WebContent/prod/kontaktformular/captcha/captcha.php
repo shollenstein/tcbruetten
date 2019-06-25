@@ -1,50 +1,70 @@
 <?php
-	/* PHP-Captcha von:		http://www-coding.de
-	 * Tutorial Artikel: 	http://www-coding.de/so-gehts-eigenes-captcha-mit-php/ 
-	 */
  
- 	session_start(); 
-	unset($_SESSION['captcha_spam']); 
-	
-	// Variablen (können angepasst werden) //
-	$captcha_bg_img 	= 'bg_captcha.png'; 		// Pfad zum Hintergrundbild
-	$captcha_over_img 	= 'bg_captcha_over.png';	// Pfad zum Bild, was über das Captcha gelegt wird
-	$font_file 			= 'DejaVuSans-Bold.ttf'; 	// Pfad zur Schriftdatei
-	$font_size			= 25; 						// Schriftgröße
-	$text_angle			= mt_rand(0, 5);			// Schriftwinkel (Werte zwischen 0 und 5)
-	$text_x				= mt_rand(0, 18);			// X-Position (Werte zwischen 0 und 18)
-	$text_y				= 35;						// Y-Position
-	$text_chars 		= 5;						// Länge des Textes
-	$text_color			= array(0, 0 , 0);			// Textfarbe (R, G, B)
-	
-	// Funktion um zufälligen String zu generieren //
-	function rand_string($length=5) {
-		$str = array_merge(range('A', 'Z'), range(1, 9));
-		for ($i = 1; $i <= (count($str)*2); $i++) {
-			$swap = mt_rand(0,count($str)-1); $tmp = $str[$swap]; $str[$swap] = $str[0]; $str[0] = $tmp;
-		}
-		return substr(implode('', $str),0,$length);
-	}
+session_start();
+unset($_SESSION['captcha_text']);
 
-	// Zufälligen Text generieren und in der Session speichern //
-	$text = rand_string($text_chars);
-	$_SESSION['captcha_spam'] = $text;
-    
-	// Header: Mitteilen, dass es sich um ein Bild handelt und dass dieses nicht im Cache gespeichert werden soll //
-	header('Expires: Mon, 26 Jul 1990 05:00:00 GMT');
-	header("Last-Modified: ".date("D, d M Y H:i:s")." GMT");
-	header('Cache-Control: no-store, no-cache, must-revalidate');
-	header('Cache-Control: post-check=0, pre-check=0', false);
-	header('Pragma: no-cache');
-	header('Content-type: image/png');
-	
-	// Captcha Bild erstellen, Text schreiben & Bild darüber legen //
-	$img = ImageCreateFromPNG($captcha_bg_img);
-	$text_color = ImageColorAllocate($img, $text_color[0], $text_color[1], $text_color[2]);
-	imagettftext($img, $font_size, $text_angle, $text_x, $text_y, $text_color, $font_file, $text);
-	imagecopy($img, ImageCreateFromPNG($captcha_over_img), 0, 0, 0, 0, 140, 40);
-	
-	// Ausgabe und Löschen des Bildes //
-	imagepng($img); 
-	imagedestroy($img); 
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+ob_end_clean();
+
+
+ 
+$permitted_chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+  
+function generate_string($input, $strength = 10) {
+    $input_length = strlen($input);
+    $random_string = '';
+    for($i = 0; $i < $strength; $i++) {
+        $random_character = $input[mt_rand(0, $input_length - 1)];
+        $random_string .= $random_character;
+    }
+  
+    return $random_string;
+}
+ 
+$image = imagecreatetruecolor(200, 50);
+ 
+imageantialias($image, true);
+ 
+$colors = [];
+ 
+$red = rand(125, 175);
+$green = rand(125, 175);
+$blue = rand(125, 175);
+ 
+for($i = 0; $i < 5; $i++) {
+  $colors[] = imagecolorallocate($image, $red - 20*$i, $green - 20*$i, $blue - 20*$i);
+}
+ 
+imagefill($image, 0, 0, $colors[0]);
+ 
+for($i = 0; $i < 10; $i++) {
+  imagesetthickness($image, rand(2, 10));
+  $line_color = $colors[rand(1, 4)];
+  imagerectangle($image, rand(-10, 190), rand(-10, 10), rand(-10, 190), rand(40, 60), $line_color);
+}
+ 
+$black = imagecolorallocate($image, 0, 0, 0);
+$white = imagecolorallocate($image, 255, 255, 255);
+$textcolors = [$black, $white];
+ 
+$fonts = ['./DejaVuSans-Bold.ttf'];
+ 
+$string_length = 6;
+$captcha_string = generate_string($permitted_chars, $string_length);
+ 
+$_SESSION['captcha_text'] = $captcha_string;
+ 
+for($i = 0; $i < $string_length; $i++) {
+  $letter_space = 170/$string_length;
+  $initial = 15;
+   
+  imagettftext($image, 24, rand(-15, 15), $initial + $i*$letter_space, rand(25, 45), $textcolors[rand(0, 1)], $fonts[array_rand($fonts)], $captcha_string[$i]);
+}
+ 
+header('Content-type: image/png');
+imagepng($image);
+imagedestroy($image);
+ 
 ?>
