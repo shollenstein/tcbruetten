@@ -1,4 +1,7 @@
 <?php
+
+// Code is from:
+// https://code.tutsplus.com/tutorials/build-your-own-captcha-and-contact-form-in-php--net-5362
  
 session_start();
 unset($_SESSION['captcha_text']);
@@ -10,7 +13,7 @@ ob_end_clean();
 
 
  
-$permitted_chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+$permitted_chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ12346789';
   
 function generate_string($input, $strength = 10) {
     $input_length = strlen($input);
