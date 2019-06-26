@@ -81,7 +81,7 @@
 								'Vorname' 			=> array('text', false),
 								'Nachname'			=> array('text', true),
 								'Strasse'			=> array('text', false),
-								'PLZ und Stadt'		=> array('text', false),
+								'PLZ und Ort'		=> array('text', false),
 								'Telefon'			=> array('text', false),
 								//'Website'			=> array('text', false),
 								'E-Mail-Adresse'	=> array('text', true),

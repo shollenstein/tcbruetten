@@ -1,4 +1,3 @@
-
 <IfModule mod_expires.c>
 FileETag MTime Size
 ExpiresActive On
