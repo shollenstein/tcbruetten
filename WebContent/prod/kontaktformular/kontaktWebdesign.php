@@ -1,5 +1,5 @@
 <?php
-	$recipient = 'silvan.hollenstein@hispeed.ch';
+	$recipient = 'webdesign@tcbruetten.ch';
 	$contact = 'Webdesign/PR (Silvan Hollenstein)';
 
 	include "kontaktformular.php";
