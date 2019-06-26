@@ -10,11 +10,15 @@
 	error_reporting(E_ALL);
 
 	ob_end_clean();
+
+
+	$iBackgroundImg = mt_rand(1, 4);
+	$iOverImg = mt_rand(1, 3);
 	
 	// Variablen (können angepasst werden) //
-	$captcha_bg_img 	= './bg_captcha.png'; 						// Pfad zum Hintergrundbild
-	$captcha_over_img 	= './bg_captcha_over.png';					// Pfad zum Bild, was über das Captcha gelegt wird
-	$font_file 			= './DejaVuSans-Bold.ttf';	// Pfad zur Schriftdatei
+	$captcha_bg_img 	= './captcha_png/bg_captcha_' . $iBackgroundImg . '.png'; 		// Pfad zum Hintergrundbild
+	$captcha_over_img 	= './captcha_png/bg_captcha_over_' . $iOverImg . '.png';		// Pfad zum Bild, was über das Captcha gelegt wird
+	$font_file 			= './fonts/DejaVuSans-Bold.ttf';	// Pfad zur Schriftdatei
 	$font_size			= 25; 										// Schriftgröße
 	$text_angle			= mt_rand(0, 5);							// Schriftwinkel (Werte zwischen 0 und 5)
 	$text_x				= mt_rand(0, 18);							// X-Position (Werte zwischen 0 und 18)

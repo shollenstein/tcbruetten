@@ -52,7 +52,7 @@ $black = imagecolorallocate($image, 0, 0, 0);
 $white = imagecolorallocate($image, 255, 255, 255);
 $textcolors = [$black, $white];
  
-$fonts = ['./DejaVuSans-Bold.ttf'];
+$fonts = ['./fonts/arial.ttf', './fonts/ariali.ttf', './fonts/BRADHITC.TTF', './fonts/Gabriola.ttf', './fonts/LHANDW.TTF', './fonts/comic.ttf', './fonts/comici.ttf', './fonts/segoesc.ttf'];
  
 $string_length = 6;
 $captcha_string = generate_string($permitted_chars, $string_length);

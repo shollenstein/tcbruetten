@@ -68,10 +68,11 @@
 			
 			$formTitle = "Kontaktformular " . $contact;
 			$msgInfo = 'Um mich zu kontaktieren, fülle bitte das folgende Formular aus. Mit * gekennzeichnete Felder sind Pflichtfelder.';
-			$msgError = 'Es ist ein Fehler aufgetreten: Es wurden nicht alle Felder korrekt ausgefüllt.';
-			$msgWrongCaptcha = 'Das Captcha wurde nicht korrekt ausgefüllt. Bitte probier es noch einmal, oder lade ein neues Bild.';
-			$msgMandatoryFieldMissing = 'Bitte fülle alle erforderlichen Felder (*) aus.';
+			$msgError = 'Es ist ein Fehler aufgetreten: Wahrscheinlich wurde das E-Mail nicht verschickt. Bitte melde dich, falls dies wiederholt auftritt.';
+			$msgWrongCaptcha = 'Der Spam-Schutz war leider falsch. Bitte probier es noch einmal, oder lade ein neues Bild.';
+			$msgMandatoryFieldMissing = 'Leider sind noch nicht alle erforderlichen Felder (*) ausgefüllt &#x1f609;.';
 			$msgSent = 'Deine Anfrage wurde erfolgreich verschickt.';
+			// $captchaPath = 'captcha/captcha_png.php';
 			$captchaPath = 'captcha/captcha.php';
 			
 			$fields = array	(
@@ -187,8 +188,12 @@
 				}
 				
 				// Formular-Ausgabe abschliessen und Captcha einbinden //
-				echo		"<tr><td>Spam-Schutz: (*)</td>" . "<td><img src=\"" . $captchaPath . "?RELOAD=\" alt=\"Captcha\" title=\"Klicken, um das Captcha neu zu laden\" onclick=\"this.src+=1; document.getElementById('captcha_code').value='';\" width=160 height=50 /></td></tr>" .
+				// Das input Feld "email" dient als zusätzlichen Spam-Schutz, da Bots versuchen, dieses auszufüllen.
+				echo		"<tr><td>Spam-Schutz: (*)</td>" . "<td>" .
+								"<img src=\"" . $captchaPath . "?RELOAD=\" alt=\"Captcha\" title=\"Klicken, um das Captcha neu zu laden\" onclick=\"this.src+=1; document.getElementById('captcha_code').value='';\" width=200 height=50 />" .
+							"</td></tr>" .
 							"<tr><td></td><td><input type=\"text\" name=\"captcha_code\" size=9 maxlength=6 /></td></tr>" .
+							"<tr><td></td><td style=\"font-size: small;\">(Nur Grossbuchstaben und Zahlen)</td></tr>" .
 							'<tr><td><input type="text" name="email" style="display:none;" /></td></tr>' .
 							'<tr><td><input type="hidden" name="send" value=1 /></td></tr>' .
 							'<tr><td></td><td><input type="submit" value="Formular abschicken" /></td></tr>'.
