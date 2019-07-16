@@ -15,12 +15,12 @@ else
 		<div style="position: relative; margin: 50px auto; padding: 20px; width: 300px; background:#ebe8de">
 			<div style="position: relative">
 				<h4>Login zur internen Mitgliederliste</h4>
-				<? if(isset($user) && isset($pass))
+				<?php if(isset($user) && isset($pass))
 				{
 					sleep(2)
 				?>
 					<span style="color: red">Falscher Benutzername oder Passwort</span>
-				<?}?>
+				<?php } ?>
 				<form method="POST" action="mitglieder.php">
 					<table style="width: 100%">
 						<tr>
@@ -36,6 +36,6 @@ else
 				</form>
 			</div>
 		</div>
-	<?}
+	<?php }
 }
 ?>

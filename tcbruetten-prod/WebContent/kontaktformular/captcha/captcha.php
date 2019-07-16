@@ -52,7 +52,8 @@ $black = imagecolorallocate($image, 0, 0, 0);
 $white = imagecolorallocate($image, 255, 255, 255);
 $textcolors = [$black, $white];
  
-$fonts = ['./fonts/arial.ttf', './fonts/ariali.ttf', './fonts/BRADHITC.TTF', './fonts/Gabriola.ttf', './fonts/LHANDW.TTF', './fonts/comic.ttf', './fonts/comici.ttf', './fonts/segoesc.ttf'];
+//$fonts = ['./fonts/arial.ttf', './fonts/ariali.ttf', './fonts/BRADHITC.TTF', './fonts/Gabriola.ttf', './fonts/LHANDW.TTF', './fonts/comic.ttf', './fonts/comici.ttf', './fonts/segoesc.ttf'];
+$fonts = [realpath('fonts/arial.ttf'), realpath('fonts/ariali.ttf'), realpath('fonts/BRADHITC.TTF'), realpath('fonts/Gabriola.ttf'), realpath('fonts/LHANDW.TTF'), realpath('fonts/comic.ttf'), realpath('fonts/comici.ttf'), realpath('fonts/segoesc.ttf')];
  
 $string_length = 6;
 $captcha_string = generate_string($permitted_chars, $string_length);
