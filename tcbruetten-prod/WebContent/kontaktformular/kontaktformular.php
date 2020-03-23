@@ -42,7 +42,7 @@
 	</section>
 
 	<div id="pageContent">
-	<section class="one_column">
+	<section class="single_column">
 
 
 		<!-- Hier kann der Inhalt deiner Seite vor das Kontaktformular platziert werden -->
