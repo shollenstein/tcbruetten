@@ -79,6 +79,10 @@ emphasize
 	color: #e56038;
 }
 
+i {
+	font-style: italic;
+}
+
 hr
 {
 	background-color: #D6D0C1;
