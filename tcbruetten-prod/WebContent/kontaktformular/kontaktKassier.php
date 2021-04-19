@@ -1,6 +1,6 @@
 <?php
-	$recipient = 'lukas.grossert@sunrise.ch';
-	$contact = 'Kassier (Lukas Grossert)';
+	$recipient = 'yvonne.zaehringer@gmail.com';
+	$contact = 'Kassierin (Yvonne Zähringer)';
 
 	include "kontaktformular.php";
 ?>
