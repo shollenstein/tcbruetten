@@ -343,6 +343,18 @@ section.two_columns article:nth-of-type(2n)
 	margin-right: 0px;
 }
 
+section.two_columns article.big
+{
+	width: 70%;
+	margin-right: 6%;
+	margin-bottom: 30px;
+}
+
+section.two_columns article.small
+{
+	width: auto;
+}
+
 
 /* ------------------------------------------------------ */
 /* 3 COLUMNS */
@@ -376,6 +388,8 @@ section.four_columns article:nth-of-type(4n)
 }
 
 /* ------------------------------------------------------ */
+
+
 
 
 article.vorstand {
@@ -1166,7 +1180,8 @@ footer .wrapper .column h4
 		margin: auto;
 	}
 	
-	section.two_columns article
+	section.two_columns article,
+	section.two_columns article.big
 	{
 		width: 100%;
 		margin-right: 0;
