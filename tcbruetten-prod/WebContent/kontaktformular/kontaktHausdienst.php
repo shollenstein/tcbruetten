@@ -1,6 +1,6 @@
 <?php
-	$recipient = 'Patrik.Volkart@zkb.ch';
-	$contact = 'Hausdienst (Patrik Volkart)';
+	$recipient = 'barbarabeerli90@hotmail.com';
+	$contact = 'Hausdienst (Barbara Arn-Beerli)';
 
 	include "kontaktformular.php";
 ?>

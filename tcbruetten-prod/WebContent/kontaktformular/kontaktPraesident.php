@@ -1,6 +1,6 @@
 <?php
-	$recipient = 'fueche@bluewin.ch';
-	$contact = 'Präsident (Christian Fuchs)';
+	$recipient = 'cmauerhofer@bluewin.ch';
+	$contact = 'Präsident (Claudio Mauerhofer)';
 
 	include "kontaktformular.php";
 ?>
